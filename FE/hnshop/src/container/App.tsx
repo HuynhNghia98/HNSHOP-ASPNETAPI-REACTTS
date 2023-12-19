@@ -28,7 +28,9 @@ import Payment from '../Pages/Customer/Cart/Payment';
 import OrderConfirmation from '../Pages/Customer/Order/OrderConfirmation';
 import UserLayout from '../Layouts/User/UserLayout';
 import UserInfor from '../Pages/Customer/Manage/UserInfor';
-import Order from '../Pages/Customer/Manage/Order';
+import Order from '../Pages/Admin/Order';
+import ManageOrder from '../Pages/Customer/Manage/ManageOrder';
+import OrderDetail from '../Pages/Admin/OrderDetail';
 
 function App() {
   const dispatch = useDispatch();
@@ -58,6 +60,8 @@ function App() {
               <Route path='color' element={<Color />} />
               <Route path='size' element={<Size />} />
               <Route path='user' element={<User />} />
+              <Route path='order' element={<Order />} />
+              <Route path='order/:id' element={<OrderDetail />} />
               <Route path='*' element={<NotFound />} />
             </Route>
 
@@ -78,7 +82,7 @@ function App() {
               {/* userInformation */}
               <Route path='user' element={<UserLayout />}>
                 <Route path='infor' element={<UserInfor />} />
-                <Route path='order' element={<Order />} />
+                <Route path='order' element={<ManageOrder />} />
               </Route>
               <Route path='*' element={<NotFound />} />
             </Route>

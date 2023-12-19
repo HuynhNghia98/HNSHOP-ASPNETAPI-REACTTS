@@ -65,7 +65,7 @@ const AdminLayout = () => {
                         </div>
                     </div>
                     <div className="">
-                        <Link to="." className="btn btn-outline-dark border-0 rounded-0 w-100 fs-6 text-start px-5 py-3">
+                        <Link to="./order" className="btn btn-outline-dark border-0 rounded-0 w-100 fs-6 text-start px-5 py-3">
                             <i className="bi bi-receipt-cutoff me-4"></i>Order</Link>
                     </div>
                     <div className="">

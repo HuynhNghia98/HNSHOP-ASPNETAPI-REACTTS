@@ -5,7 +5,7 @@ export enum SD_Roles {
 
 export enum SD_OrderStatus {
   WAITCONFIRM = "Wait For Confirmation",
-  WAITDELIVERY = "Waiting For Delivery",
+  WAITDELIVERY = "Wait For Delivery",
   COMPLETED = "Completed",
   CANCELED = "Canceled",
 }

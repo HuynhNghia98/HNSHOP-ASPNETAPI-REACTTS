@@ -42,6 +42,10 @@ const url = {
   //user
   adminUser: "Admin/User/GetAll",
   adminUserLockUnlock: "Admin/User/lockUnlock",
+  //order
+  adminOrders: "Admin/Order/GetOrders",
+  adminOrder: "Admin/Order/GetOrder",
+  adminChangeOrderStatus: "Admin/Order/ChangeOrderStatus",
 
   //customer
   //header

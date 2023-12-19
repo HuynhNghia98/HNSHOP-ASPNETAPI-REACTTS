@@ -88,6 +88,15 @@ export interface IOrder {
   orderStatus: string;
   paymentStatus: string;
   paymentDate: Date;
+  name: string;
+  phoneNumber: string;
+  streetAddress: string;
+  city: string;
+  postalCode: string;
+  trackingNumber: string;
+  carrier: string;
+  sessionId: string;
+  paymentIntentId: string;
   items: IItem[];
 }
 
