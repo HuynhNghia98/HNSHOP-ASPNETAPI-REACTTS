@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.DataAccess\\HNshop.DataAccess.csproj": {}
+    "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.DataAccess\\HNshop.DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.DataAccess\\HNshop.DataAccess.csproj": {
+    "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.DataAccess\\HNshop.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.DataAccess\\HNshop.DataAccess.csproj",
+        "projectUniqueName": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.DataAccess\\HNshop.DataAccess.csproj",
         "projectName": "HNshop.DataAccess",
-        "projectPath": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.DataAccess\\HNshop.DataAccess.csproj",
+        "projectPath": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.DataAccess\\HNshop.DataAccess.csproj",
         "packagesPath": "C:\\Users\\htnde\\.nuget\\packages\\",
-        "outputPath": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.DataAccess\\obj\\",
+        "outputPath": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\htnde\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj": {
-                "projectPath": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj"
+              "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj": {
+                "projectPath": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj"
               },
-              "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\Models\\HNshop.Models.csproj": {
-                "projectPath": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\Models\\HNshop.Models.csproj"
+              "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\Models\\HNshop.Models.csproj": {
+                "projectPath": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\Models\\HNshop.Models.csproj"
               }
             }
           }
@@ -100,14 +100,14 @@
         }
       }
     },
-    "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj": {
+    "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj",
+        "projectUniqueName": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj",
         "projectName": "HNshop.Utility",
-        "projectPath": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj",
+        "projectPath": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj",
         "packagesPath": "C:\\Users\\htnde\\.nuget\\packages\\",
-        "outputPath": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.Utility\\obj\\",
+        "outputPath": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\htnde\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -161,14 +161,14 @@
         }
       }
     },
-    "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\Models\\HNshop.Models.csproj": {
+    "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\Models\\HNshop.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\Models\\HNshop.Models.csproj",
+        "projectUniqueName": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\Models\\HNshop.Models.csproj",
         "projectName": "HNshop.Models",
-        "projectPath": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\Models\\HNshop.Models.csproj",
+        "projectPath": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\Models\\HNshop.Models.csproj",
         "packagesPath": "C:\\Users\\htnde\\.nuget\\packages\\",
-        "outputPath": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\Models\\obj\\",
+        "outputPath": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\htnde\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -185,8 +185,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj": {
-                "projectPath": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj"
+              "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj": {
+                "projectPath": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj"
               }
             }
           }

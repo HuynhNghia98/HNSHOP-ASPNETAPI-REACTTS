@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj": {}
+    "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj": {}
   },
   "projects": {
-    "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj": {
+    "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj",
+        "projectUniqueName": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj",
         "projectName": "HNshop.Utility",
-        "projectPath": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj",
+        "projectPath": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj",
         "packagesPath": "C:\\Users\\htnde\\.nuget\\packages\\",
-        "outputPath": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop.Utility\\obj\\",
+        "outputPath": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\htnde\\AppData\\Roaming\\NuGet\\NuGet.Config",

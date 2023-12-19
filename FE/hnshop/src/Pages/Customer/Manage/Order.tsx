@@ -29,8 +29,6 @@ const Order = () => {
         })
     }, [userData, status]);
 
-    cons
-
     return (
         <div className="">
             <h3>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CvbR8+Gy+WfaMDdRtVwalBXMULA++qwt5scXa8nnNgA=",
+  "Hash": "I39h1HxbaVdCZLFP0xNgpKX8tB6KCZd57imzwI989iU=",
   "Source": "HNshop",
   "BasePath": "_content/HNshop",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "HNshop\\wwwroot",
       "Source": "HNshop",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\10450a97-5027-48b8-89c7-3bfdd07c50e8.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\10450a97-5027-48b8-89c7-3bfdd07c50e8.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/10450a97-5027-48b8-89c7-3bfdd07c50e8.png",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\images\\10450a97-5027-48b8-89c7-3bfdd07c50e8.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\24174c0f-08ba-4e82-8a57-589fce9d4009.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\24174c0f-08ba-4e82-8a57-589fce9d4009.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/24174c0f-08ba-4e82-8a57-589fce9d4009.png",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\images\\24174c0f-08ba-4e82-8a57-589fce9d4009.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\254bb47d-871b-4c38-b466-77b2913f1046.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\254bb47d-871b-4c38-b466-77b2913f1046.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/254bb47d-871b-4c38-b466-77b2913f1046.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\images\\254bb47d-871b-4c38-b466-77b2913f1046.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\3385090f-bc6c-40e5-b94e-6d984c018e5e.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\3385090f-bc6c-40e5-b94e-6d984c018e5e.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/3385090f-bc6c-40e5-b94e-6d984c018e5e.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\images\\3385090f-bc6c-40e5-b94e-6d984c018e5e.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\3c921e23-119d-4eb5-a2a5-9d8e412294f5.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\3c921e23-119d-4eb5-a2a5-9d8e412294f5.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/3c921e23-119d-4eb5-a2a5-9d8e412294f5.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\images\\3c921e23-119d-4eb5-a2a5-9d8e412294f5.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\3d4a886d-2284-432c-9993-b1c92d1edea4.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\3d4a886d-2284-432c-9993-b1c92d1edea4.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/3d4a886d-2284-432c-9993-b1c92d1edea4.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\3d4a886d-2284-432c-9993-b1c92d1edea4.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\3f423830-0dd0-470c-9dc1-2b19ddfe74e8.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\3f423830-0dd0-470c-9dc1-2b19ddfe74e8.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/3f423830-0dd0-470c-9dc1-2b19ddfe74e8.png",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\images\\3f423830-0dd0-470c-9dc1-2b19ddfe74e8.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\4620b6f2-e82c-4a34-b275-f37955c6f806.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\4620b6f2-e82c-4a34-b275-f37955c6f806.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/4620b6f2-e82c-4a34-b275-f37955c6f806.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4620b6f2-e82c-4a34-b275-f37955c6f806.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\474cd794-33a5-4c6e-b58a-c04cd8c0f2d0.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\474cd794-33a5-4c6e-b58a-c04cd8c0f2d0.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/474cd794-33a5-4c6e-b58a-c04cd8c0f2d0.png",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\images\\474cd794-33a5-4c6e-b58a-c04cd8c0f2d0.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\485c7775-780a-48be-8363-94178237a854.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\485c7775-780a-48be-8363-94178237a854.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/485c7775-780a-48be-8363-94178237a854.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\images\\485c7775-780a-48be-8363-94178237a854.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\5ccce67f-746c-47a9-b131-24e534d9e226.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\5ccce67f-746c-47a9-b131-24e534d9e226.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/5ccce67f-746c-47a9-b131-24e534d9e226.png",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\images\\5ccce67f-746c-47a9-b131-24e534d9e226.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\63baf4e1-a39c-4296-aedf-bb4189046346.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\63baf4e1-a39c-4296-aedf-bb4189046346.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/63baf4e1-a39c-4296-aedf-bb4189046346.png",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\63baf4e1-a39c-4296-aedf-bb4189046346.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\74cdb2a6-a24a-4627-9e76-eb8f1ba5eb6d.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\74cdb2a6-a24a-4627-9e76-eb8f1ba5eb6d.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/74cdb2a6-a24a-4627-9e76-eb8f1ba5eb6d.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\images\\74cdb2a6-a24a-4627-9e76-eb8f1ba5eb6d.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\75d7e4ce-2bd1-4a60-b1c3-7936ea27c42b.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\75d7e4ce-2bd1-4a60-b1c3-7936ea27c42b.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/75d7e4ce-2bd1-4a60-b1c3-7936ea27c42b.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\images\\75d7e4ce-2bd1-4a60-b1c3-7936ea27c42b.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\7662b6de-d277-4f1b-9a93-6961b5f44964.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\7662b6de-d277-4f1b-9a93-6961b5f44964.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/7662b6de-d277-4f1b-9a93-6961b5f44964.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\images\\7662b6de-d277-4f1b-9a93-6961b5f44964.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\7770f5ac-59ea-4637-95d7-20f6f95cc1a4.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\7770f5ac-59ea-4637-95d7-20f6f95cc1a4.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/7770f5ac-59ea-4637-95d7-20f6f95cc1a4.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\images\\7770f5ac-59ea-4637-95d7-20f6f95cc1a4.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\77c11746-4405-4a67-bd1f-975098ac0e81.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\77c11746-4405-4a67-bd1f-975098ac0e81.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/77c11746-4405-4a67-bd1f-975098ac0e81.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\images\\77c11746-4405-4a67-bd1f-975098ac0e81.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\821bf406-38a0-4b54-b419-8d1696aba484.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\821bf406-38a0-4b54-b419-8d1696aba484.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/821bf406-38a0-4b54-b419-8d1696aba484.png",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\images\\821bf406-38a0-4b54-b419-8d1696aba484.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\8370d3ac-2688-41f6-8648-53d81b5bf730.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\8370d3ac-2688-41f6-8648-53d81b5bf730.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/8370d3ac-2688-41f6-8648-53d81b5bf730.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\8370d3ac-2688-41f6-8648-53d81b5bf730.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\83a08583-7067-4ea0-8fc5-59c21dca72bc.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\83a08583-7067-4ea0-8fc5-59c21dca72bc.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/83a08583-7067-4ea0-8fc5-59c21dca72bc.png",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\images\\83a08583-7067-4ea0-8fc5-59c21dca72bc.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\8c5bed86-c840-4fc8-b7c1-dce01e454ff3.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\8c5bed86-c840-4fc8-b7c1-dce01e454ff3.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/8c5bed86-c840-4fc8-b7c1-dce01e454ff3.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\images\\8c5bed86-c840-4fc8-b7c1-dce01e454ff3.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\afee8365-ca0f-4e57-97c3-be9ec91d7527.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\afee8365-ca0f-4e57-97c3-be9ec91d7527.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/afee8365-ca0f-4e57-97c3-be9ec91d7527.png",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\images\\afee8365-ca0f-4e57-97c3-be9ec91d7527.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\b1ca0fb0-4c2a-4bd4-b4ba-eacd45ab38e0.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\b1ca0fb0-4c2a-4bd4-b4ba-eacd45ab38e0.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/b1ca0fb0-4c2a-4bd4-b4ba-eacd45ab38e0.png",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\images\\b1ca0fb0-4c2a-4bd4-b4ba-eacd45ab38e0.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\b40944d1-f5fa-4aa5-b596-9c18d95d5328.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\b40944d1-f5fa-4aa5-b596-9c18d95d5328.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/b40944d1-f5fa-4aa5-b596-9c18d95d5328.png",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\images\\b40944d1-f5fa-4aa5-b596-9c18d95d5328.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\bd0258a7-9aab-4cab-85b3-10d51ea4157b.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\bd0258a7-9aab-4cab-85b3-10d51ea4157b.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/bd0258a7-9aab-4cab-85b3-10d51ea4157b.png",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bd0258a7-9aab-4cab-85b3-10d51ea4157b.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\cf0d689b-95b6-444e-bb51-1347108c3902.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\cf0d689b-95b6-444e-bb51-1347108c3902.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/cf0d689b-95b6-444e-bb51-1347108c3902.png",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cf0d689b-95b6-444e-bb51-1347108c3902.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\images\\ea1b3afd-f2fd-403f-8bc1-d67cdfd1939a.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\images\\ea1b3afd-f2fd-403f-8bc1-d67cdfd1939a.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "images/ea1b3afd-f2fd-403f-8bc1-d67cdfd1939a.png",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ea1b3afd-f2fd-403f-8bc1-d67cdfd1939a.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\04c5fdf4-145f-4edd-ba92-0e7141e91b82.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\04c5fdf4-145f-4edd-ba92-0e7141e91b82.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/04c5fdf4-145f-4edd-ba92-0e7141e91b82.png",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\product\\04c5fdf4-145f-4edd-ba92-0e7141e91b82.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\05affac8-f9a1-49a5-80bc-0f710b523fa6.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\05affac8-f9a1-49a5-80bc-0f710b523fa6.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/05affac8-f9a1-49a5-80bc-0f710b523fa6.png",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\product\\05affac8-f9a1-49a5-80bc-0f710b523fa6.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\07ce6628-fd42-4274-bc8d-fcc7bd02e6be.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\07ce6628-fd42-4274-bc8d-fcc7bd02e6be.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/07ce6628-fd42-4274-bc8d-fcc7bd02e6be.png",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\product\\07ce6628-fd42-4274-bc8d-fcc7bd02e6be.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\08c165de-739f-459c-9bc9-729420497e7e.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\08c165de-739f-459c-9bc9-729420497e7e.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/08c165de-739f-459c-9bc9-729420497e7e.png",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\product\\08c165de-739f-459c-9bc9-729420497e7e.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\1226534b-0c5d-419d-a829-d99d35fafa07.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\1226534b-0c5d-419d-a829-d99d35fafa07.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/1226534b-0c5d-419d-a829-d99d35fafa07.png",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\product\\1226534b-0c5d-419d-a829-d99d35fafa07.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\12be16bf-2b89-4e82-8eb9-888bd881055c.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\12be16bf-2b89-4e82-8eb9-888bd881055c.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/12be16bf-2b89-4e82-8eb9-888bd881055c.png",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\product\\12be16bf-2b89-4e82-8eb9-888bd881055c.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\1d10c667-ddd8-4ddc-b25f-379e45c25049.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\1d10c667-ddd8-4ddc-b25f-379e45c25049.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/1d10c667-ddd8-4ddc-b25f-379e45c25049.png",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\product\\1d10c667-ddd8-4ddc-b25f-379e45c25049.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\1e04d71b-4cda-40d8-a519-4da587c2f2ed.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\1e04d71b-4cda-40d8-a519-4da587c2f2ed.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/1e04d71b-4cda-40d8-a519-4da587c2f2ed.png",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\product\\1e04d71b-4cda-40d8-a519-4da587c2f2ed.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\22bda65d-bb56-4dcb-bebd-1a07130bf0eb.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\22bda65d-bb56-4dcb-bebd-1a07130bf0eb.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/22bda65d-bb56-4dcb-bebd-1a07130bf0eb.png",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\product\\22bda65d-bb56-4dcb-bebd-1a07130bf0eb.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\238e4eb7-e312-4256-bafc-c331cfe283f9.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\238e4eb7-e312-4256-bafc-c331cfe283f9.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/238e4eb7-e312-4256-bafc-c331cfe283f9.png",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\product\\238e4eb7-e312-4256-bafc-c331cfe283f9.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\2d73e942-452c-4445-b540-8a78725680b8.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\2d73e942-452c-4445-b540-8a78725680b8.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/2d73e942-452c-4445-b540-8a78725680b8.png",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\product\\2d73e942-452c-4445-b540-8a78725680b8.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\306be3c3-7683-49ad-8aed-32ab9f72260e.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\306be3c3-7683-49ad-8aed-32ab9f72260e.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/306be3c3-7683-49ad-8aed-32ab9f72260e.png",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\product\\306be3c3-7683-49ad-8aed-32ab9f72260e.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\3512f6bb-8c39-4a2b-b88c-91f7d4f32865.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\3512f6bb-8c39-4a2b-b88c-91f7d4f32865.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/3512f6bb-8c39-4a2b-b88c-91f7d4f32865.png",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\product\\3512f6bb-8c39-4a2b-b88c-91f7d4f32865.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\3e6f3f5d-5ea9-4114-a141-7e36204d420b.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\3e6f3f5d-5ea9-4114-a141-7e36204d420b.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/3e6f3f5d-5ea9-4114-a141-7e36204d420b.png",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\product\\3e6f3f5d-5ea9-4114-a141-7e36204d420b.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\409416ec-016e-472d-895f-8edf81195179.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\409416ec-016e-472d-895f-8edf81195179.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/409416ec-016e-472d-895f-8edf81195179.png",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\product\\409416ec-016e-472d-895f-8edf81195179.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\425d7a7b-cb03-42a1-89b7-0a849f0c1a21.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\425d7a7b-cb03-42a1-89b7-0a849f0c1a21.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/425d7a7b-cb03-42a1-89b7-0a849f0c1a21.png",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\product\\425d7a7b-cb03-42a1-89b7-0a849f0c1a21.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\42f3e923-55a4-4d8d-a78c-75462815b3cf.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\42f3e923-55a4-4d8d-a78c-75462815b3cf.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/42f3e923-55a4-4d8d-a78c-75462815b3cf.png",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\product\\42f3e923-55a4-4d8d-a78c-75462815b3cf.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\43120005-1823-4177-9fbc-c06cab43b2d3.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\43120005-1823-4177-9fbc-c06cab43b2d3.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/43120005-1823-4177-9fbc-c06cab43b2d3.png",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\product\\43120005-1823-4177-9fbc-c06cab43b2d3.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\4bf48181-f1d5-43d0-a5c0-f69c71d41f09.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\4bf48181-f1d5-43d0-a5c0-f69c71d41f09.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/4bf48181-f1d5-43d0-a5c0-f69c71d41f09.png",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\product\\4bf48181-f1d5-43d0-a5c0-f69c71d41f09.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\4fa0cee5-23d7-4cd2-a17b-a1d74f31d8a2.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\4fa0cee5-23d7-4cd2-a17b-a1d74f31d8a2.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/4fa0cee5-23d7-4cd2-a17b-a1d74f31d8a2.png",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\product\\4fa0cee5-23d7-4cd2-a17b-a1d74f31d8a2.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\54bdb411-049c-4313-80c1-c71aa67ab790.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\54bdb411-049c-4313-80c1-c71aa67ab790.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/54bdb411-049c-4313-80c1-c71aa67ab790.png",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\product\\54bdb411-049c-4313-80c1-c71aa67ab790.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\558c547d-d25b-4b1a-aa4f-7d02e965e3a7.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\558c547d-d25b-4b1a-aa4f-7d02e965e3a7.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/558c547d-d25b-4b1a-aa4f-7d02e965e3a7.png",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\product\\558c547d-d25b-4b1a-aa4f-7d02e965e3a7.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\57a7d46e-1c2d-4c9e-902b-7ac7433f1d86.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\57a7d46e-1c2d-4c9e-902b-7ac7433f1d86.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/57a7d46e-1c2d-4c9e-902b-7ac7433f1d86.png",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\product\\57a7d46e-1c2d-4c9e-902b-7ac7433f1d86.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\5c01ae8e-2143-455f-98f0-e85546fee21a.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\5c01ae8e-2143-455f-98f0-e85546fee21a.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/5c01ae8e-2143-455f-98f0-e85546fee21a.png",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\product\\5c01ae8e-2143-455f-98f0-e85546fee21a.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\5cc1940b-2701-4dd6-a029-8bfe8f26a314.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\5cc1940b-2701-4dd6-a029-8bfe8f26a314.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/5cc1940b-2701-4dd6-a029-8bfe8f26a314.png",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\product\\5cc1940b-2701-4dd6-a029-8bfe8f26a314.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\5d862928-4158-4c51-979f-fb1b517b797a.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\5d862928-4158-4c51-979f-fb1b517b797a.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/5d862928-4158-4c51-979f-fb1b517b797a.png",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\product\\5d862928-4158-4c51-979f-fb1b517b797a.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\5fe41a0c-99bf-46aa-8bc3-d759042c6921.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\5fe41a0c-99bf-46aa-8bc3-d759042c6921.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/5fe41a0c-99bf-46aa-8bc3-d759042c6921.png",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\product\\5fe41a0c-99bf-46aa-8bc3-d759042c6921.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\648d88fc-d91a-4f17-a978-96d38d723517.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\648d88fc-d91a-4f17-a978-96d38d723517.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/648d88fc-d91a-4f17-a978-96d38d723517.png",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\product\\648d88fc-d91a-4f17-a978-96d38d723517.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\6a7850ad-354e-41b2-bf4e-fdcd2f131e5e.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\6a7850ad-354e-41b2-bf4e-fdcd2f131e5e.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/6a7850ad-354e-41b2-bf4e-fdcd2f131e5e.png",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\product\\6a7850ad-354e-41b2-bf4e-fdcd2f131e5e.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\6b8e635f-15a2-407f-b2b8-4fbf690d0a85.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\6b8e635f-15a2-407f-b2b8-4fbf690d0a85.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/6b8e635f-15a2-407f-b2b8-4fbf690d0a85.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\product\\6b8e635f-15a2-407f-b2b8-4fbf690d0a85.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\71396455-f175-4792-9a4d-a96aa45140f5.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\71396455-f175-4792-9a4d-a96aa45140f5.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/71396455-f175-4792-9a4d-a96aa45140f5.png",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\product\\71396455-f175-4792-9a4d-a96aa45140f5.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\74815a36-acc8-49fa-adbb-ebf30dad3ae8.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\74815a36-acc8-49fa-adbb-ebf30dad3ae8.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/74815a36-acc8-49fa-adbb-ebf30dad3ae8.png",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\product\\74815a36-acc8-49fa-adbb-ebf30dad3ae8.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\767ada07-c76d-44cf-913e-916730965277.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\767ada07-c76d-44cf-913e-916730965277.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/767ada07-c76d-44cf-913e-916730965277.png",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\product\\767ada07-c76d-44cf-913e-916730965277.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\776c6ff2-5368-4955-a315-108d327ad1ae.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\776c6ff2-5368-4955-a315-108d327ad1ae.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/776c6ff2-5368-4955-a315-108d327ad1ae.png",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\product\\776c6ff2-5368-4955-a315-108d327ad1ae.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\7a21a465-b92d-4f8d-8453-30fe144fbf02.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\7a21a465-b92d-4f8d-8453-30fe144fbf02.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/7a21a465-b92d-4f8d-8453-30fe144fbf02.png",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\product\\7a21a465-b92d-4f8d-8453-30fe144fbf02.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\838d6987-ceb5-4389-8947-4fcf2d4948d4.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\838d6987-ceb5-4389-8947-4fcf2d4948d4.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/838d6987-ceb5-4389-8947-4fcf2d4948d4.png",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\product\\838d6987-ceb5-4389-8947-4fcf2d4948d4.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\85a2c849-59ca-44a0-a143-d9a9502ba567.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\85a2c849-59ca-44a0-a143-d9a9502ba567.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/85a2c849-59ca-44a0-a143-d9a9502ba567.png",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\product\\85a2c849-59ca-44a0-a143-d9a9502ba567.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\86fbb870-793f-4435-8c60-1253def0532c.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\86fbb870-793f-4435-8c60-1253def0532c.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/86fbb870-793f-4435-8c60-1253def0532c.png",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\product\\86fbb870-793f-4435-8c60-1253def0532c.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\878a8242-65a6-419b-9eb2-748c6f2f3660.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\878a8242-65a6-419b-9eb2-748c6f2f3660.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/878a8242-65a6-419b-9eb2-748c6f2f3660.png",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\product\\878a8242-65a6-419b-9eb2-748c6f2f3660.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\882e6942-0cef-43d3-ab96-31bb7398cffb.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\882e6942-0cef-43d3-ab96-31bb7398cffb.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/882e6942-0cef-43d3-ab96-31bb7398cffb.png",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\product\\882e6942-0cef-43d3-ab96-31bb7398cffb.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\8b472373-31b6-4675-b752-37c00d4d972b.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\8b472373-31b6-4675-b752-37c00d4d972b.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/8b472373-31b6-4675-b752-37c00d4d972b.png",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\product\\8b472373-31b6-4675-b752-37c00d4d972b.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\8fb42491-4812-4e05-a1f7-83d0ecc2c4ec.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\8fb42491-4812-4e05-a1f7-83d0ecc2c4ec.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/8fb42491-4812-4e05-a1f7-83d0ecc2c4ec.png",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\product\\8fb42491-4812-4e05-a1f7-83d0ecc2c4ec.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\9097a71b-a529-452f-ac69-efc3d88da05d.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\9097a71b-a529-452f-ac69-efc3d88da05d.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/9097a71b-a529-452f-ac69-efc3d88da05d.png",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\product\\9097a71b-a529-452f-ac69-efc3d88da05d.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\967d66cb-2bfb-4599-bd21-4f6504ad84aa.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\967d66cb-2bfb-4599-bd21-4f6504ad84aa.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/967d66cb-2bfb-4599-bd21-4f6504ad84aa.png",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\product\\967d66cb-2bfb-4599-bd21-4f6504ad84aa.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\98d5b8fc-a05e-4ad7-92de-f985de66f64b.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\98d5b8fc-a05e-4ad7-92de-f985de66f64b.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/98d5b8fc-a05e-4ad7-92de-f985de66f64b.png",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\product\\98d5b8fc-a05e-4ad7-92de-f985de66f64b.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\9e41745d-9fc1-4a3f-bd36-fa8e29fa2e9d.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\9e41745d-9fc1-4a3f-bd36-fa8e29fa2e9d.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/9e41745d-9fc1-4a3f-bd36-fa8e29fa2e9d.png",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\product\\9e41745d-9fc1-4a3f-bd36-fa8e29fa2e9d.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\9f6c5936-f5db-4f3c-b715-331dfecc4445.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\9f6c5936-f5db-4f3c-b715-331dfecc4445.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/9f6c5936-f5db-4f3c-b715-331dfecc4445.png",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\product\\9f6c5936-f5db-4f3c-b715-331dfecc4445.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\a4587804-47cf-46ac-a162-d75fab9bbd2d.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\a4587804-47cf-46ac-a162-d75fab9bbd2d.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/a4587804-47cf-46ac-a162-d75fab9bbd2d.png",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\product\\a4587804-47cf-46ac-a162-d75fab9bbd2d.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\a4ecfd99-bba7-4fe0-8242-830f9850002f.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\a4ecfd99-bba7-4fe0-8242-830f9850002f.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/a4ecfd99-bba7-4fe0-8242-830f9850002f.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\product\\a4ecfd99-bba7-4fe0-8242-830f9850002f.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\a79a4a5f-5bb2-465f-a801-c19375875fbb.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\a79a4a5f-5bb2-465f-a801-c19375875fbb.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/a79a4a5f-5bb2-465f-a801-c19375875fbb.png",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\product\\a79a4a5f-5bb2-465f-a801-c19375875fbb.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\abbcac87-b5df-4683-9637-66c8050cd26b.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\abbcac87-b5df-4683-9637-66c8050cd26b.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/abbcac87-b5df-4683-9637-66c8050cd26b.png",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\product\\abbcac87-b5df-4683-9637-66c8050cd26b.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\b044ec2e-eb14-49c5-b21b-c0ada99b7a9d.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\b044ec2e-eb14-49c5-b21b-c0ada99b7a9d.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/b044ec2e-eb14-49c5-b21b-c0ada99b7a9d.png",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\product\\b044ec2e-eb14-49c5-b21b-c0ada99b7a9d.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\b04d2af5-e825-4a03-9e95-72078c075088.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\b04d2af5-e825-4a03-9e95-72078c075088.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/b04d2af5-e825-4a03-9e95-72078c075088.png",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\product\\b04d2af5-e825-4a03-9e95-72078c075088.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\bc99b3f9-311d-4bfb-9f1e-22e9a4e8c7ce.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\bc99b3f9-311d-4bfb-9f1e-22e9a4e8c7ce.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/bc99b3f9-311d-4bfb-9f1e-22e9a4e8c7ce.png",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\product\\bc99b3f9-311d-4bfb-9f1e-22e9a4e8c7ce.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\c04320d6-cffb-49bb-b292-e065907da5d4.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\c04320d6-cffb-49bb-b292-e065907da5d4.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/c04320d6-cffb-49bb-b292-e065907da5d4.png",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\product\\c04320d6-cffb-49bb-b292-e065907da5d4.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\c051d4e5-c22b-4cc6-bc62-bab5396797e0.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\c051d4e5-c22b-4cc6-bc62-bab5396797e0.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/c051d4e5-c22b-4cc6-bc62-bab5396797e0.png",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\product\\c051d4e5-c22b-4cc6-bc62-bab5396797e0.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\cad5ac4f-308a-4136-8a11-30e3af7e1df7.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\cad5ac4f-308a-4136-8a11-30e3af7e1df7.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/cad5ac4f-308a-4136-8a11-30e3af7e1df7.png",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\product\\cad5ac4f-308a-4136-8a11-30e3af7e1df7.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\ce02326d-e01f-4e44-82a2-12bb93a0673f.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\ce02326d-e01f-4e44-82a2-12bb93a0673f.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/ce02326d-e01f-4e44-82a2-12bb93a0673f.png",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\product\\ce02326d-e01f-4e44-82a2-12bb93a0673f.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\cfcad63b-0094-46c4-9f4f-62b21baf90d8.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\cfcad63b-0094-46c4-9f4f-62b21baf90d8.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/cfcad63b-0094-46c4-9f4f-62b21baf90d8.png",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\product\\cfcad63b-0094-46c4-9f4f-62b21baf90d8.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\d08b3006-99f2-438f-969e-2b3c01d43751.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\d08b3006-99f2-438f-969e-2b3c01d43751.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/d08b3006-99f2-438f-969e-2b3c01d43751.png",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\product\\d08b3006-99f2-438f-969e-2b3c01d43751.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\ec7fa840-4b5c-482d-8aa0-2c04c6a03d4a.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\ec7fa840-4b5c-482d-8aa0-2c04c6a03d4a.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/ec7fa840-4b5c-482d-8aa0-2c04c6a03d4a.png",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\product\\ec7fa840-4b5c-482d-8aa0-2c04c6a03d4a.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\f3cea89a-9edf-433f-b55b-47e3dc8ceaae.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\f3cea89a-9edf-433f-b55b-47e3dc8ceaae.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/f3cea89a-9edf-433f-b55b-47e3dc8ceaae.png",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\product\\f3cea89a-9edf-433f-b55b-47e3dc8ceaae.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\f5d432bd-f57a-40a2-b84a-b0e9c5f72467.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\f5d432bd-f57a-40a2-b84a-b0e9c5f72467.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/f5d432bd-f57a-40a2-b84a-b0e9c5f72467.png",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\product\\f5d432bd-f57a-40a2-b84a-b0e9c5f72467.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\fa68e21f-fcc9-48e6-8a52-ca267aee0929.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\fa68e21f-fcc9-48e6-8a52-ca267aee0929.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/fa68e21f-fcc9-48e6-8a52-ca267aee0929.png",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\product\\fa68e21f-fcc9-48e6-8a52-ca267aee0929.png"
     },
     {
-      "Identity": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\product\\ffe0052f-145e-449f-968a-44dc468bad81.png",
+      "Identity": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\product\\ffe0052f-145e-449f-968a-44dc468bad81.png",
       "SourceId": "HNshop",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\HNshop\\wwwroot\\",
+      "ContentRoot": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop\\wwwroot\\",
       "BasePath": "_content/HNshop",
       "RelativePath": "product/ffe0052f-145e-449f-968a-44dc468bad81.png",
       "AssetKind": "All",

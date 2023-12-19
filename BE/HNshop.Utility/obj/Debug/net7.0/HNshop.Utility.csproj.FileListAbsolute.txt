@@ -22,3 +22,15 @@ D:\My-Projects\HHSHOP-ASP.NET-API-REACTTS\BE\HNshop.Utility\obj\Debug\net7.0\HNs
 D:\My-Projects\HHSHOP-ASP.NET-API-REACTTS\BE\HNshop.Utility\obj\Debug\net7.0\refint\HNshop.Utility.dll
 D:\My-Projects\HHSHOP-ASP.NET-API-REACTTS\BE\HNshop.Utility\obj\Debug\net7.0\HNshop.Utility.pdb
 D:\My-Projects\HHSHOP-ASP.NET-API-REACTTS\BE\HNshop.Utility\obj\Debug\net7.0\ref\HNshop.Utility.dll
+D:\My-Projects\HNSHOP-ASPNETAPI-REACTTS\BE\HNshop.Utility\bin\Debug\net7.0\HNshop.Utility.deps.json
+D:\My-Projects\HNSHOP-ASPNETAPI-REACTTS\BE\HNshop.Utility\bin\Debug\net7.0\HNshop.Utility.dll
+D:\My-Projects\HNSHOP-ASPNETAPI-REACTTS\BE\HNshop.Utility\bin\Debug\net7.0\HNshop.Utility.pdb
+D:\My-Projects\HNSHOP-ASPNETAPI-REACTTS\BE\HNshop.Utility\obj\Debug\net7.0\HNshop.Utility.csproj.AssemblyReference.cache
+D:\My-Projects\HNSHOP-ASPNETAPI-REACTTS\BE\HNshop.Utility\obj\Debug\net7.0\HNshop.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\My-Projects\HNSHOP-ASPNETAPI-REACTTS\BE\HNshop.Utility\obj\Debug\net7.0\HNshop.Utility.AssemblyInfoInputs.cache
+D:\My-Projects\HNSHOP-ASPNETAPI-REACTTS\BE\HNshop.Utility\obj\Debug\net7.0\HNshop.Utility.AssemblyInfo.cs
+D:\My-Projects\HNSHOP-ASPNETAPI-REACTTS\BE\HNshop.Utility\obj\Debug\net7.0\HNshop.Utility.csproj.CoreCompileInputs.cache
+D:\My-Projects\HNSHOP-ASPNETAPI-REACTTS\BE\HNshop.Utility\obj\Debug\net7.0\HNshop.Utility.dll
+D:\My-Projects\HNSHOP-ASPNETAPI-REACTTS\BE\HNshop.Utility\obj\Debug\net7.0\refint\HNshop.Utility.dll
+D:\My-Projects\HNSHOP-ASPNETAPI-REACTTS\BE\HNshop.Utility\obj\Debug\net7.0\HNshop.Utility.pdb
+D:\My-Projects\HNSHOP-ASPNETAPI-REACTTS\BE\HNshop.Utility\obj\Debug\net7.0\ref\HNshop.Utility.dll

@@ -21,8 +21,8 @@ const AdminLayout = () => {
 
     return (
         <div className="container-fluid" style={{ height: "100%" }}>
-            <div className="row" style={{ height: "100%" }}>
-                <div className="col-3 border p-0 bg-white" style={{ height: "100%", width: "300px" }}>
+            <div className="row d-flex" style={{ height: "100%" }}>
+                <div className="col-3 border p-0 bg-white" style={{ height: "100%", width: "250px" }}>
                     <div className="py-2 px-5 mt-2 text-truncate">
                         <p className="m-0"><img src={`https://ui-avatars.com/api/?name=${userData.fullName}`} alt="img1" className="rounded-5 me-2" style={{ width: "40px" }}></img>{userData.fullName}</p>
                     </div>
@@ -35,7 +35,7 @@ const AdminLayout = () => {
                     </div>
                     <div className="">
                         <button className="btn btn-outline-dark border-0 rounded-0 w-100 fs-6 text-start px-5 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#categoryCollapse" aria-expanded="false" aria-controls="categoryCollapse">
-                            <i className="bi bi-boxes me-3"></i> Category<i className="bi bi-chevron-down fs-6 ms-5"></i>
+                            <i className="bi bi-boxes me-3"></i> Category<i className="bi bi-chevron-down fs-6 ms-4"></i>
                         </button>
                         <div className="collapse" id="categoryCollapse">
                             <div className="card card-body p-0 border-0 custom-collapse-bg rounded-0">
@@ -48,7 +48,7 @@ const AdminLayout = () => {
                     </div>
                     <div className="">
                         <button className="btn btn-outline-dark border-0 rounded-0 w-100 fs-6 text-start px-5 py-3" type="button" data-bs-toggle="collapse" data-bs-target="#productCollapse" aria-expanded="false" aria-controls="productCollapse">
-                            <i className="bi bi-database-fill me-3"></i> Product<i className="bi bi-chevron-down fs-6 ms-5"></i>
+                            <i className="bi bi-database-fill me-3"></i> Product<i className="bi bi-chevron-down fs-6 ms-4"></i>
                         </button>
                         <div className="collapse" id="productCollapse">
                             <div className="card card-body p-0 border-0 custom-collapse-bg rounded-0">

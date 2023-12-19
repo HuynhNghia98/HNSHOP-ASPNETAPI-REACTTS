@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ejInr8v33wTZidjACb3iKEaJGKRFyPRPuAeDaQ7Sh0+HWi4GYNrCFaa03Xxkey627v9qjLlSeTvnSKeX271U4Q==",
+  "dgSpecHash": "gq+Sy6/zN+Eug4t3lGMTURBWTuPpbLIhXR3wvLTmmoFtQAl14LtsdP9/wpgGQqvZ6Eaxi+RzgfXfab9Sl9cneA==",
   "success": true,
-  "projectFilePath": "D:\\My-Projects\\HHSHOP-ASP.NET-API-REACTTS\\BE\\Models\\HNshop.Models.csproj",
+  "projectFilePath": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\Models\\HNshop.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\htnde\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\htnde\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
