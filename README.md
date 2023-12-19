@@ -1,4 +1,4 @@
-# HNSHOP PROJECT [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# HNSHOP API PROJECT [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 ## Made By
 - HUYNH TRUNG NGHIA
