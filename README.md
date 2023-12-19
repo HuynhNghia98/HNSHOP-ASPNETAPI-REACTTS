@@ -7,7 +7,7 @@
 
 ## Technologies Used
 - Front-End: React Typescript, Bootstrap.
-- Back-End: ASP.NET WEB API, EF.
+- Back-End: ASP.NET WEB API, EF, Identity.
 - Database: MS SQL.
 - Payment Gateway API: Stripe.
 
