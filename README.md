@@ -20,6 +20,11 @@ payments through Stripe. Account Management. View, cancel, repurchase past
 orders. Product Reviews. Register an account using Facebook.
 
 ## Backup File
+- HnshopAPI.bak
+
+## Admin Account
+ + email: 	nghiaadmin@gmail.com
+ + password: 	123
    
 ## Payment:
 Card information:
