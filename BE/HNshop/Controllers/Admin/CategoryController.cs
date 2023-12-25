@@ -55,7 +55,7 @@ namespace HNshop.Controllers.Admin
 					{
 						_res.StatusCode = HttpStatusCode.BadRequest;
 						_res.IsSuccess = false;
-						ModelState.AddModelError(nameof(categoryDTO.Name), "Tên đã tồn tại.");
+						ModelState.AddModelError(nameof(categoryDTO.Name), "Name already existed.");
 						_res.Errors = ModelState.ToDictionary(
 							kvp => kvp.Key,
 							kvp => kvp.Value.Errors.Select(e => e.ErrorMessage).ToList()
@@ -105,7 +105,7 @@ namespace HNshop.Controllers.Admin
 
 					if (existsName != null && id != existsName.Id)
 					{
-						ModelState.AddModelError(nameof(categoryDTO.Name), "Tên đã tồn tại.");
+						ModelState.AddModelError(nameof(categoryDTO.Name), "Name already existed.");
 						_res.StatusCode = HttpStatusCode.BadRequest;
 						_res.IsSuccess = false;
 						_res.Errors = ModelState.ToDictionary(

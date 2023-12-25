@@ -62,7 +62,7 @@ namespace HNshop.Controllers.Admin
 					if (existsName != null)
 					{
 						_res.IsSuccess = false;
-						ModelState.AddModelError(nameof(CreateProductDTO.Name), "Tên đã tồn tại.");
+						ModelState.AddModelError(nameof(CreateProductDTO.Name), "Name already exists.");
 						_res.Errors = ModelState.ToDictionary(
 									 kvp => kvp.Key,
 									 kvp => kvp.Value.Errors.Select(e => e.ErrorMessage).ToList()
@@ -150,7 +150,7 @@ namespace HNshop.Controllers.Admin
 								else
 								{
 									_res.IsSuccess = false;
-									ModelState.AddModelError(nameof(CreateProductDTO.Name), "Sản phẩm không tồn tại.");
+									ModelState.AddModelError(nameof(CreateProductDTO.Name), "Product does not exist .");
 									_res.Errors = ModelState.ToDictionary(
 												 kvp => kvp.Key,
 												 kvp => kvp.Value.Errors.Select(e => e.ErrorMessage).ToList()
@@ -228,7 +228,7 @@ namespace HNshop.Controllers.Admin
 					if (existsName != null && existsName.Id != productDTO.Id)
 					{
 						_res.IsSuccess = false;
-						ModelState.AddModelError(nameof(UpdateProductDTO.Name), "Tên đã tồn tại.");
+						ModelState.AddModelError(nameof(UpdateProductDTO.Name), "Name already exists.");
 						_res.Errors = ModelState.ToDictionary(
 									 kvp => kvp.Key,
 									 kvp => kvp.Value.Errors.Select(e => e.ErrorMessage).ToList()
@@ -299,7 +299,7 @@ namespace HNshop.Controllers.Admin
 								else
 								{
 									_res.IsSuccess = false;
-									ModelState.AddModelError(nameof(UpdateProductDTO.Name), "Sản phẩm không tồn tại.");
+									ModelState.AddModelError(nameof(UpdateProductDTO.Name), "Product does not exist.");
 									_res.Errors = ModelState.ToDictionary(
 												 kvp => kvp.Key,
 												 kvp => kvp.Value.Errors.Select(e => e.ErrorMessage).ToList()

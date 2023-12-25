@@ -48,5 +48,9 @@ namespace HNshop.Models
 		public ICollection<ProductDetail>? ProductDetails { get; set; }
 		//[ValidateNever]
 		public ICollection<Image>? Images { get; set; }
+		public ICollection<Review>? Reviews { get; set; }
+
+		[NotMapped]
+		public double? Rating { get; set; }
 	}
 }

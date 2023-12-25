@@ -30,6 +30,8 @@ export interface IProduct {
   colorId: number;
   color?: IColor;
   images?: IImage[];
+  reviews?: IReview[];
+  rating: number;
 }
 
 export interface IProductDetail {
@@ -110,4 +112,19 @@ export interface IItem {
   productDetailId: number;
   order: IOrder;
   orderId: number;
+}
+
+export interface IReview {
+  id: number;
+  title: string;
+  rating: number;
+  description: string;
+  createTime: Date;
+  applicationUser: IUser;
+}
+
+export interface IUser {
+  id: number;
+  username: string;
+  name: string;
 }

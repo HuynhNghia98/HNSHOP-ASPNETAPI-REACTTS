@@ -424,8 +424,7 @@ namespace HNshop.DataAccess.Migrations
                     b.Property<DateTime>("CreateTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("ProductDetailId")
-                        .IsRequired()
+                    b.Property<int>("ProductDetailId")
                         .HasColumnType("int");
 
                     b.Property<int>("Quantity")
@@ -720,7 +719,7 @@ namespace HNshop.DataAccess.Migrations
                         .IsRequired();
 
                     b.HasOne("HNshop.Models.Product", "Product")
-                        .WithMany()
+                        .WithMany("Reviews")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -838,6 +837,8 @@ namespace HNshop.DataAccess.Migrations
                     b.Navigation("Images");
 
                     b.Navigation("ProductDetails");
+
+                    b.Navigation("Reviews");
                 });
 
             modelBuilder.Entity("HNshop.Models.ProductDetail", b =>

@@ -12,6 +12,7 @@ import { toast } from 'react-toastify';
 import CartModel from '../../../Services/Interfaces/CartModel';
 import { setCart } from '../../../Storage/Redux/cartSlice';
 import FormatCurrency from './../../../Utility/FormatCurrency';
+import FormatDate from '../../../Utility/FormatDate';
 
 const ProductDetailPage = () => {
     const { slug } = useParams();
@@ -85,113 +86,142 @@ const ProductDetailPage = () => {
     }
 
     return (
-        <section className='bg-white border-top py-5'>
-            <div className='container'>
-                <div className='row'>
-                    <div className='col col-md-8'>
-                        <div className='row'>
-                            {images && images.map((image, index) => (
-                                <div key={index} className='col-6'>
-                                    <img src={`https://localhost:5000${image.imageUrl}`} alt={image.imageUrl}
-                                        className="d-block w-100"></img>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-
-                    <div className='col col-md-4 px-md-5'>
-                        <h2 className='fw-bold mb-4'>{product?.name}</h2>
-                        {product?.saleoff && product?.saleoff > 0 ? (
-                            <>
-                                <h3 className="fw-bold mb-2 fs-6">
-                                    <span className='text-decoration-line-through text-secondary'>{FormatCurrency(product?.price || 0)}</span>
-                                    <span className='ms-3 bg-danger-subtle px-3 py-1 rounded-2'>-{product?.saleoff}%</span>
-                                </h3>
-                                <h3 className="fw-bold mb-4">{FormatCurrency(product?.price - product?.price * (product?.saleoff || 0) / 100 || 0)}</h3>
-                            </>
-                        ) : (
-                            <h3 className="fw-bold mb-4">{FormatCurrency(product?.price || 0)}</h3>
-                        )}
-                        <h6>Color: </h6>
-                        <h6 className='mb-4'>
-                            <i className="bi bi-circle-fill me-2 fs-5" style={{ color: `${product?.color?.name}`, width: "10px" }}></i>
-                            {product?.color?.name}
-                        </h6>
-                        <form onSubmit={(e) => handleAddToCartSubmit(e)}>
-                            <h6>Size: </h6>
-                            <p className='mb-4'>
-                                {productDetails && productDetails.map((p, index) => (
-                                    <span key={index}>
-                                        <input id={`input${p.id}`} type="radio" name="productDetailId"
-                                            className='d-none'
-                                            value={p.id}
-                                            checked={cartInput.productDetailId === p.id}
-                                            onChange={(e) => handleInputChange(e)}
-                                        />
-                                        <label htmlFor={`input${p.id}`}
-                                            className={`btn btn-outline-dark ${cartInput.productDetailId === p.id ? 'active' : ''} rounded-0 me-2 px-3 py-2`}
-                                        >{p.size?.name}</label>
-                                    </span>
+        <>
+            <section className='bg-white border-top py-5'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col col-md-8'>
+                            <div className='row'>
+                                {images && images.map((image, index) => (
+                                    <div key={index} className='col-6'>
+                                        <img src={`https://localhost:5000${image.imageUrl}`} alt={image.imageUrl}
+                                            className="d-block w-100"></img>
+                                    </div>
                                 ))}
-                            </p>
-                            {productDetailIdError && productDetailIdError.map((e, i) => (
-                                <span className='text-danger' key={i}>{e}</span>
-                            ))}
-                            <h6>Quantity: </h6>
-                            <div className='mb-5'>
-                                <input type="number" className='form-control rounded-0 border border-dark fs-5 w-50'
-                                    name='quantity'
-                                    min={1} max={1000}
-                                    value={cartInput.quantity}
-                                    onChange={(e) => handleInputChange(e)}
-                                />
                             </div>
-                            {quantityError && quantityError.map((e, i) => (
-                                <span className='text-danger' key={i}>{e}</span>
-                            ))}
-                            <div className='mb-5'>
-                                <button type="submit" className='btn btn-dark rounded-0 w-100 py-3'>Add to Cart</button>
+                        </div>
+
+                        <div className='col col-md-4 px-md-5'>
+                            <h1 className='fw-bold mb-1'>{product?.name}</h1>
+                            <div className='mb-4'>
+                                <span className='fs-4 me-2'>{product?.rating}</span>
+                                {Array.from({ length: 5 }).map((_, index) => (
+                                    <i key={index} className={`bi bi-star${index < (product?.rating || 0) ? '-fill' : ''} fs-5 me-1`}></i>
+                                ))}
                             </div>
-                        </form>
-                        <div className="accordion accordion-flush border" id="accordionFlushExample">
-                            <div className="accordion-item border">
-                                <h2 className="accordion-header">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                        Description
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div className="accordion-body">
-                                        {product?.description}
+                            {product?.saleoff && product?.saleoff > 0 ? (
+                                <>
+                                    <h3 className="fw-bold mb-2 fs-6">
+                                        <span className='text-decoration-line-through text-secondary'>{FormatCurrency(product?.price || 0)}</span>
+                                        <span className='ms-3 bg-danger-subtle px-3 py-1 rounded-2'>-{product?.saleoff}%</span>
+                                    </h3>
+                                    <h3 className="fw-bold mb-4">{FormatCurrency(product?.price - product?.price * (product?.saleoff || 0) / 100 || 0)}</h3>
+                                </>
+                            ) : (
+                                <h3 className="fw-bold mb-4">{FormatCurrency(product?.price || 0)}</h3>
+                            )}
+                            <h6>Color: </h6>
+                            <h6 className='mb-4'>
+                                <i className="bi bi-circle-fill me-2 fs-5" style={{ color: `${product?.color?.name}`, width: "10px" }}></i>
+                                {product?.color?.name}
+                            </h6>
+                            <form onSubmit={(e) => handleAddToCartSubmit(e)}>
+                                <h6>Size: </h6>
+                                <p className='mb-4'>
+                                    {productDetails && productDetails.map((p, index) => (
+                                        <span key={index}>
+                                            <input id={`input${p.id}`} type="radio" name="productDetailId"
+                                                className='d-none'
+                                                value={p.id}
+                                                checked={cartInput.productDetailId === p.id}
+                                                onChange={(e) => handleInputChange(e)}
+                                            />
+                                            <label htmlFor={`input${p.id}`}
+                                                className={`btn btn-outline-dark ${cartInput.productDetailId === p.id ? 'active' : ''} rounded-0 me-2 px-3 py-2`}
+                                            >{p.size?.name}</label>
+                                        </span>
+                                    ))}
+                                </p>
+                                {productDetailIdError && productDetailIdError.map((e, i) => (
+                                    <span className='text-danger' key={i}>{e}</span>
+                                ))}
+                                <h6>Quantity: </h6>
+                                <div className='mb-5'>
+                                    <input type="number" className='form-control rounded-0 border border-dark fs-5 w-50'
+                                        name='quantity'
+                                        min={1} max={1000}
+                                        value={cartInput.quantity}
+                                        onChange={(e) => handleInputChange(e)}
+                                    />
+                                </div>
+                                {quantityError && quantityError.map((e, i) => (
+                                    <span className='text-danger' key={i}>{e}</span>
+                                ))}
+                                <div className='mb-5'>
+                                    <button type="submit" className='btn btn-dark rounded-0 w-100 py-3'>Add to Cart</button>
+                                </div>
+                            </form>
+                            <div className="accordion accordion-flush border" id="accordionFlushExample">
+                                <div className="accordion-item border">
+                                    <h2 className="accordion-header">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Description
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                        <div className="accordion-body">
+                                            {product?.description}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="accordion-item border">
+                                    <h2 className="accordion-header">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Accordion Item #2
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                        <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                    </div>
+                                </div>
+                                <div className="accordion-item border">
+                                    <h2 className="accordion-header">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                            Accordion Item #3
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                        <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="accordion-item border">
-                                <h2 className="accordion-header">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                        Accordion Item #2
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+                </div>
+            </section >
+            <section className='bg-body-tertiary'>
+                <div className='container py-4'>
+                    <h1 className='mb-3'>Reviews</h1>
+                    {product?.reviews && product.reviews.map((r, i) => (
+                        <div key={i} className='bg-white p-5 mb-3'>
+                            <div className="row">
+                                <div className="col-3">
+                                    <p className='fw-bold'>{r.applicationUser.name}</p>
+                                    <p>{FormatDate(r.createTime)}</p>
                                 </div>
-                            </div>
-                            <div className="accordion-item border">
-                                <h2 className="accordion-header">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                        Accordion Item #3
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                <div className="col px-5" style={{ borderLeft: "solid 1px" }}>
+                                    <p>{r.title}</p>
+                                    <p>{r.description}</p>
+                                </div>
+                                <div className="col-2 ps-4" style={{ borderLeft: "solid 1px" }}>
+                                    <p><i className="bi bi-patch-check"></i> Verified buyer</p>
                                 </div>
                             </div>
                         </div>
-
-                    </div>
+                    ))}
                 </div>
-            </div>
-        </section >
+            </section>
+        </>
     )
 }
 

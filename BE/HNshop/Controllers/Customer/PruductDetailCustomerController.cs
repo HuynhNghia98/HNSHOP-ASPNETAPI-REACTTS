@@ -30,7 +30,13 @@ namespace HNshop.Controllers.Customer
 				return NotFound(_res);
 			}
 
-			var product = await _unitOfWork.Product.Get(x => x.Slug == slug, true).Include(x => x.Images).Include(x => x.Color).Include(x => x.SubCategory).FirstOrDefaultAsync();
+			var product = await _unitOfWork.Product.Get(x => x.Slug == slug, true)
+				.Include(x => x.Images)
+				.Include(x => x.Color)
+				.Include(x => x.SubCategory)
+				.Include(x => x.Reviews)
+				.ThenInclude(x=>x.ApplicationUser)
+				.FirstOrDefaultAsync();
 
 			if (product == null)
 			{
@@ -38,6 +44,10 @@ namespace HNshop.Controllers.Customer
 				_res.StatusCode = HttpStatusCode.NotFound;
 				return NotFound(_res);
 			}
+
+			var totalRating = _unitOfWork.Review.Get(x => x.ProductId == product.Id, true).Sum(x => x.Rating);
+			var ratingCount = _unitOfWork.Review.Get(x => x.ProductId == product.Id, true).Count();
+			product.Rating = totalRating / ratingCount;
 
 			_res.Result.Product = product;
 			_res.Result.ProductDetails = await _unitOfWork.ProductDetail.Get(x => x.Product.Slug == slug, true).Include(x => x.Size).ToListAsync();

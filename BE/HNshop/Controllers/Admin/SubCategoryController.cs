@@ -60,7 +60,7 @@ namespace HNshop.Controllers.Admin
                     if (existsName != null)
                     {
                         _res.IsSuccess = false;
-						ModelState.AddModelError(nameof(CreateSubCategoryDTO.Name), "Tên đã tồn tại.");
+						ModelState.AddModelError(nameof(CreateSubCategoryDTO.Name), "Name already exists.");
 						_res.Errors = ModelState.ToDictionary(
 									 kvp => kvp.Key,
 									 kvp => kvp.Value.Errors.Select(e => e.ErrorMessage).ToList()
@@ -122,7 +122,7 @@ namespace HNshop.Controllers.Admin
                     if (existsName != null && existsName.Id != subCategoryDTO.Id)
                     {
                         _res.IsSuccess = false;
-						ModelState.AddModelError(nameof(UpdateSubCategoryDTO.Name), "Tên đã tồn tại.");
+						ModelState.AddModelError(nameof(UpdateSubCategoryDTO.Name), "Name already exists.");
 						_res.Errors = ModelState.ToDictionary(
 									 kvp => kvp.Key,
 									 kvp => kvp.Value.Errors.Select(e => e.ErrorMessage).ToList()

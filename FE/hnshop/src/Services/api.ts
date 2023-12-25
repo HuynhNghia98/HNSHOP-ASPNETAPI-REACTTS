@@ -72,6 +72,8 @@ const url = {
   userInfor: "Manage/GetUserInfor",
   changeUserInfor: "Manage/ChangeUserInfor",
   orders: "Manage/GetOrders",
+  //review
+  review: "Review/AddReview",
 };
 
 const instance = axios.create({

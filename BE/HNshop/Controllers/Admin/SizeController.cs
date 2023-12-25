@@ -54,7 +54,7 @@ namespace HNshop.Controllers.Admin
                     {
                         _res.IsSuccess = false;
                         _res.Result = sizeDTO;
-						ModelState.AddModelError(nameof(CreateSizeDTO.Name), "Tên đã tồn tại.");
+						ModelState.AddModelError(nameof(CreateSizeDTO.Name), "Name already exists.");
 						_res.Errors = ModelState.ToDictionary(
 									 kvp => kvp.Key,
 									 kvp => kvp.Value.Errors.Select(e => e.ErrorMessage).ToList()
@@ -103,7 +103,7 @@ namespace HNshop.Controllers.Admin
                     {
                         _res.IsSuccess = false;
                         _res.Result = sizeDTO;
-						ModelState.AddModelError(nameof(UpdateSizeDTO.Name), "Tên đã tồn tại.");
+						ModelState.AddModelError(nameof(UpdateSizeDTO.Name), "Name already exists.");
 						_res.Errors = ModelState.ToDictionary(
 									 kvp => kvp.Key,
 									 kvp => kvp.Value.Errors.Select(e => e.ErrorMessage).ToList()

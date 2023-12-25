@@ -48,7 +48,7 @@ const Order = () => {
         {
             name: "Order Status", options: {
                 customBodyRender: (value: string) => (
-                    <div style={{ textAlign: "start", paddingLeft: "20px" }}>{value}</div>
+                    <div style={{ textAlign: "start", paddingLeft: "20px" }} className={`fw-bold text-${value === SD_OrderStatus.COMPLETED ? 'success' : value === SD_OrderStatus.CANCELED ? 'danger' : 'warning'}`}>{value}</div>
                 ),
             },
         },

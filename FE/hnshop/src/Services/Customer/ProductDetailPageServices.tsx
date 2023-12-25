@@ -19,20 +19,7 @@ const getProductDetailPage = (slug: string) => {
         });
 };
 
-// const postCategoryPageFilter = (urlName: string, subCat: number, price: string, color: number, sort: string, pageNumber: number) => {
-//     const data = { subCat, price, color, sort, pageNumber };
-//     return api
-//         .post<ResponseWrapper<GetCategoryPage>>(`${api.url.categoryFilter}/${urlName}`, data)
-//         .then((res) => {
-//             return res.data;
-//         })
-//         .catch((error) => {
-//             return error.response.data;
-//         });
-// };
-
 const ProductDetailPageServices = {
     getProductDetailPage,
-    // postCategoryPageFilter,
 };
 export default ProductDetailPageServices;

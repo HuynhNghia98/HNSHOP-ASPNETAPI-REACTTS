@@ -22,6 +22,7 @@ const Product = () => {
         subCategoryId: 0,
         colorId: 0,
         images: [],
+        rating: 0
     });
     const [files, setFiles] = useState<File[]>([]);
     const [id, setId] = useState<number>();
@@ -77,6 +78,7 @@ const Product = () => {
             subCategoryId: 0,
             colorId: 0,
             images: [],
+            rating: 0
         });
         handleClearErrors();
     }
