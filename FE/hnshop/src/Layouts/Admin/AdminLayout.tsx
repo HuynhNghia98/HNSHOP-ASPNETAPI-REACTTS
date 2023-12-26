@@ -21,7 +21,7 @@ const AdminLayout = () => {
 
     return (
         <div className="container-fluid" style={{ height: "100%" }}>
-            <div className="row d-flex" style={{ height: "100%" }}>
+            <div className="row d-flex" >
                 <div className="col-3 border p-0 bg-white" style={{ height: "100%", width: "250px" }}>
                     <div className="py-2 px-5 mt-2 text-truncate">
                         <p className="m-0"><img src={`https://ui-avatars.com/api/?name=${userData.fullName}`} alt="img1" className="rounded-5 me-2" style={{ width: "40px" }}></img>{userData.fullName}</p>

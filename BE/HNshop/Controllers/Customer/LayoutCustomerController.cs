@@ -50,5 +50,25 @@ namespace HNshop.Controllers.Customer
 
 			return Ok(_res);
 		}
+
+		[HttpPost("Search")]
+		public async Task<IActionResult> Search([FromForm] string? search)
+		{
+			if (string.IsNullOrEmpty(search) && search == "")
+			{
+				_res.Result = null;
+			}
+			else
+			{
+				var productsSearched = await _unitOfWork.Product.Get(x => x.Name.Contains(search), true)
+					.Include(x => x.Images)
+					.Include(x => x.SubCategory)
+					.ToListAsync();
+				_res.Result = productsSearched;
+			}
+			_res.StatusCode = HttpStatusCode.OK;
+
+			return Ok(_res);
+		}
 	}
 }

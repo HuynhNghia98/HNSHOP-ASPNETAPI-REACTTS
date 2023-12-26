@@ -47,7 +47,8 @@ namespace HNshop.Controllers.Customer
 
 			var totalRating = _unitOfWork.Review.Get(x => x.ProductId == product.Id, true).Sum(x => x.Rating);
 			var ratingCount = _unitOfWork.Review.Get(x => x.ProductId == product.Id, true).Count();
-			product.Rating = totalRating / ratingCount;
+			// Avoid division by zero
+			product.Rating = ratingCount > 0 ? totalRating / ratingCount : 0;
 
 			_res.Result.Product = product;
 			_res.Result.ProductDetails = await _unitOfWork.ProductDetail.Get(x => x.Product.Slug == slug, true).Include(x => x.Size).ToListAsync();

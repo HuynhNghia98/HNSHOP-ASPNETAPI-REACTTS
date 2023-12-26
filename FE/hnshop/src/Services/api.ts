@@ -50,6 +50,7 @@ const url = {
   //customer
   //header
   header: "Customer/LayoutCustomer/GetAll",
+  search: "Customer/LayoutCustomer/Search",
   cartCount: "Customer/LayoutCustomer/GetCart",
   category: "Customer/CategoryCustomer/Get",
   categoryFilter: "Customer/CategoryCustomer/Filter",

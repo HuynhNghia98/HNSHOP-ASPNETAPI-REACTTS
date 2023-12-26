@@ -52,7 +52,7 @@ const User = () => {
         {
             name: "ID", options: {
                 customBodyRender: (value: number) => (
-                    <div style={{ textAlign: "start", paddingLeft: "30px" }}>{value}</div>
+                    <div style={{ textAlign: "start", paddingLeft: "10px" }}>{value}</div>
                 ),
             },
         },
@@ -136,8 +136,8 @@ const User = () => {
                             download: true,
                             print: true,
                             viewColumns: true,
-                            rowsPerPage: 10,
-                            rowsPerPageOptions: [10, 25, 50, 100],
+                            rowsPerPage: 5,
+                            rowsPerPageOptions: [5, 10, 25, 100],
                             elevation: 2,
                         }}
                     />

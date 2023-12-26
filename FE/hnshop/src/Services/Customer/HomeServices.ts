@@ -1,5 +1,5 @@
 import ResponseWrapper from "../responseWrapper";
-import { ICategory, ISubCategory } from "../Interfaces/Interfaces";
+import { ICategory, IProduct, ISubCategory } from "../Interfaces/Interfaces";
 import api from "../api";
 
 const getLayoutHeader = () => {
@@ -24,8 +24,21 @@ const getCartCount = (userId: string) => {
     });
 };
 
+const postSearch = (search: string) => {
+  const data = { search };
+  return api
+    .post<ResponseWrapper<IProduct[]>>(api.url.search, data)
+    .then((res) => {
+      return res.data;
+    })
+    .catch((error) => {
+      return error.response.data;
+    });
+};
+
 const HomeServices = {
   getLayoutHeader,
   getCartCount,
+  postSearch,
 };
 export default HomeServices;

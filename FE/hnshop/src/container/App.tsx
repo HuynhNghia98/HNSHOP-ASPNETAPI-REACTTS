@@ -51,6 +51,7 @@ function App() {
       {userData.role === 'Admin' ? (
         <>
           <Routes>
+            {/* ADMIN */}
             <Route path='admin/*' element={<AdminLayout />}>
               <Route index element={<Dashboard />} />
               <Route path='category' element={<Category />} />
@@ -98,6 +99,18 @@ function App() {
               <Route path=':urlName' element={<CategoryPage />} />
               <Route path=':category/:subCategoryUrlName' element={<SubCategoryPage />} />
               <Route path=':subCategory/p/:slug' element={<ProductDetailPage />} />
+              {/* cart */}
+              <Route path='cart' element={<CartLayout />}>
+                <Route path='list' element={<Cart />} />
+                <Route path='orderInformation' element={<OrderInformation />} />
+                <Route path='payment' element={<Payment />} />
+              </Route>
+              <Route path='orderConfirmation' element={<OrderConfirmation />} />
+              {/* userInformation */}
+              <Route path='user' element={<UserLayout />}>
+                <Route path='infor' element={<UserInfor />} />
+                <Route path='order' element={<ManageOrder />} />
+              </Route>
               <Route path='*' element={<NotFound />} />
             </Route>
           </Routes>

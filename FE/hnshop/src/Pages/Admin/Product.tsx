@@ -305,7 +305,7 @@ const Product = () => {
                 style={{
                     content: {
                         width: '800px',
-                        height: '730px',
+                        height: '650px',
                         top: '20px',
                         left: '450px',
                     },

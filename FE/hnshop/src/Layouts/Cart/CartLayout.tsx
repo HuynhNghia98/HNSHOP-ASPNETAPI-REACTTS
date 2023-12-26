@@ -16,7 +16,7 @@ const CartLayout = () => {
                             <hr />
                         </div>
                     </div>
-                    <CartStep number={2} label="Delivery Information" isActive={cartUrlCurrent === 'orderInformation'} />
+                    <CartStep number={2} label="Order Information" isActive={cartUrlCurrent === 'orderInformation'} />
                     <div className="col-1 justify-content-center">
                         <div className="p-3 text-center">
                             <hr />
