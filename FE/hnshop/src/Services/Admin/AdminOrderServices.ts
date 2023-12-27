@@ -1,5 +1,5 @@
 import ResponseWrapper from "../responseWrapper";
-import { IColor, IOrder } from "../Interfaces/Interfaces";
+import { IOrder } from "../Interfaces/Interfaces";
 import api from "../api";
 
 const postAdminOrder = (status: string) => {

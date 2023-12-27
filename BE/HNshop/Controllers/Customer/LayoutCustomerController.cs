@@ -1,4 +1,5 @@
 ﻿using HNshop.DataAccess.Repository.IRepository;
+using HNshop.Models;
 using HNshop.Models.Response;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -54,20 +55,21 @@ namespace HNshop.Controllers.Customer
 		[HttpPost("Search")]
 		public async Task<IActionResult> Search([FromForm] string? search)
 		{
-			if (string.IsNullOrEmpty(search) && search == "")
+			if (string.IsNullOrEmpty(search))
 			{
-				_res.Result = null;
+				_res.Result = new List<Product>();
 			}
 			else
 			{
-				var productsSearched = await _unitOfWork.Product.Get(x => x.Name.Contains(search), true)
-					.Include(x => x.Images)
-					.Include(x => x.SubCategory)
-					.ToListAsync();
+				var productsSearched = await _unitOfWork.Product
+				.Get(x => x.Name.Contains(search), true)
+				.Include(x => x.Images)
+				.Include(x => x.SubCategory)
+				.ToListAsync();
+
 				_res.Result = productsSearched;
 			}
 			_res.StatusCode = HttpStatusCode.OK;
-
 			return Ok(_res);
 		}
 	}

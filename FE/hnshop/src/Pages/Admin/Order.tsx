@@ -16,7 +16,7 @@ const Order = () => {
             if (res.isSuccess) {
                 setOrders(res.result);
             } else {
-                alert('cannot fetch')
+                alert('cannot post order')
             }
         })
     }, [status]);

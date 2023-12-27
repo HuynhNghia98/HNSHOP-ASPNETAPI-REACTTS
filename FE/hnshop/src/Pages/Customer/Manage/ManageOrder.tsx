@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { IItem, IOrder } from "../../../Services/Interfaces/Interfaces";
 import ManageServices from "../../../Services/Customer/Manage/ManageServices";
-import { SD_OrderStatus } from "../../../Utility/SD";
+import { SD_OrderStatus, SD_PaymentStatus } from "../../../Utility/SD";
 import userModel from "../../../Services/Interfaces/UserModel";
 import { useSelector } from "react-redux";
 import { RootState } from "../../../Storage/Redux/store";
@@ -45,12 +45,12 @@ const ManageOrder = () => {
     const handleChangeOrderStatus = (status: string) => {
         setStatus(status);
     }
-
+    //review input
     const handleReviewInput = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const tempData = inputHelper(e, reviewInput);
         setReviewInput(tempData);
     };
-
+    //submit review
     const handleReviewSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         const res = await ReviewServices.postReview(reviewInput.rating, reviewInput.title, reviewInput.description, reviewInput.userId, reviewInput.productId, reviewInput.itemId);
@@ -65,7 +65,7 @@ const ManageOrder = () => {
             setRatingError(res.Rating);
         }
     }
-
+    //open review model
     const handleOpenReviewModal = (itemId: number, productId: number, userId: string) => {
         setIsReviewModalOpen(true);
         setReviewInput({
@@ -75,9 +75,21 @@ const ManageOrder = () => {
             userId
         });
     }
-
+    //close review model
     const handleCloseReviewModal = () => {
         setIsReviewModalOpen(false);
+    }
+    //cancel order
+    const handleCancelOrder = async (orderId: number) => {
+        const res = await ManageServices.postCancelOrder(orderId);
+        if (res.isSuccess) {
+            toast.success(`Canceled order #${orderId}.`, {
+                autoClose: 2000,
+                theme: "colored",
+            });
+        } else {
+            alert('cannot cancel order.');
+        }
     }
 
     return (
@@ -119,14 +131,16 @@ const ManageOrder = () => {
                                     className={o.orderStatus === SD_OrderStatus.WAITCONFIRM || o.orderStatus === SD_OrderStatus.WAITDELIVERY ? 'text-warning' : o.orderStatus === SD_OrderStatus.CANCELED ? 'text-danger' : 'text-success'}
                                 >{o.orderStatus}</span>
                             </p>
-                            <p className="mb-1"><span className="me-2 fw-bold">Payment Status:</span><span className="text-success me-2">{o.paymentStatus}</span> ({FormatDate(o.orderDate)})</p>
+                            <p className="mb-1"><span className="me-2 fw-bold">Payment Status:</span><span className="text-success me-2">{o.paymentStatus}</span> {o.paymentStatus === SD_PaymentStatus.PAID ? `(${FormatDate(o.orderDate)})` : null}</p>
                             <p><span className="me-2 fw-bold">Total:</span> <span className="">{FormatCurrency(o.total)}</span></p>
                         </div>
                         <div className="col text-end">
                             {o.orderStatus === SD_OrderStatus.WAITCONFIRM ?
                                 (
                                     <>
-                                        <button className="btn btn-danger rounded-0 w-50">Cancel</button>
+                                        <button className="btn btn-danger rounded-0 w-50"
+                                            onClick={() => handleCancelOrder(o.id)}
+                                        >Cancel</button>
                                     </>
                                 )
                                 : null}

@@ -9,3 +9,9 @@ export enum SD_OrderStatus {
   COMPLETED = "Completed",
   CANCELED = "Canceled",
 }
+
+export enum SD_PaymentStatus {
+  PAID = "Paid",
+  UNPAID = "Unpaid",
+  REFUNDED = "Refunded",
+}

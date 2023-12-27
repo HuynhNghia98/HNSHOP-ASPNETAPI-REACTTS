@@ -43,9 +43,21 @@ const postOrderStatus = (userId: string, status: string) => {
     });
 };
 
+const postCancelOrder = (orderId: number) => {
+  return api
+    .post<ResponseWrapper<object>>(`${api.url.cancelOrder}/${orderId}`)
+    .then((res) => {
+      return res.data;
+    })
+    .catch((error) => {
+      return error.response.data.errors;
+    });
+};
+
 const ManageServices = {
   getUserInfor,
   postChangeUserInfor,
   postOrderStatus,
+  postCancelOrder,
 };
 export default ManageServices;

@@ -73,6 +73,7 @@ const url = {
   userInfor: "Manage/GetUserInfor",
   changeUserInfor: "Manage/ChangeUserInfor",
   orders: "Manage/GetOrders",
+  cancelOrder: "Manage/CancelOrder",
   //review
   review: "Review/AddReview",
 };

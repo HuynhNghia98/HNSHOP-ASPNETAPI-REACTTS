@@ -35,17 +35,12 @@ namespace HNshop.Controllers.Admin
 				return NotFound(_res);
 			}
 
-			List<HNshop.Models.Order> orderIndb = null;
+			List<HNshop.Models.Order> orderIndb = new();
 
 			if (status == "All")
 			{
 				orderIndb = await _unitOfWork.Order.GetAll()
 				.Include(x => x.Items)
-				.ThenInclude(x => x.ProductDetail.Product.Images)
-				.Include(x => x.Items)
-				.ThenInclude(x => x.ProductDetail.Product.SubCategory)
-				.Include(x => x.Items)
-				.ThenInclude(x => x.ProductDetail.Size)
 				.OrderByDescending(x => x.Id)
 				.ToListAsync();
 			}
@@ -53,11 +48,6 @@ namespace HNshop.Controllers.Admin
 			{
 				orderIndb = await _unitOfWork.Order.Get(x => x.OrderStatus == status, true)
 				.Include(x => x.Items)
-				.ThenInclude(x => x.ProductDetail.Product.Images)
-				.Include(x => x.Items)
-				.ThenInclude(x => x.ProductDetail.Product.SubCategory)
-				.Include(x => x.Items)
-				.ThenInclude(x => x.ProductDetail.Size)
 				.OrderByDescending(x => x.Id)
 				.ToListAsync();
 			}

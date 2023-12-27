@@ -1,17 +1,14 @@
 using HNshop.DataAccess.Data;
 using HNshop.DataAccess.Repository.IRepository;
 using HNshop.DataAccess.Repository;
-using HNshop.Utility;
 using Microsoft.EntityFrameworkCore;
 using HNshop.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
-using Microsoft.Extensions.Options;
 
 namespace HNshop
 {
@@ -28,7 +25,6 @@ namespace HNshop
 			{
 				options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
 			});
-			// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 			builder.Services.AddEndpointsApiExplorer();
 			//config swagger jwt token
 			builder.Services.AddSwaggerGen(o =>
@@ -100,7 +96,6 @@ namespace HNshop
 			//builder.Services.AddCors();
 			builder.Services.AddCors();
 			builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-
 			var app = builder.Build();
 
 			// Configure the HTTP request pipeline.
