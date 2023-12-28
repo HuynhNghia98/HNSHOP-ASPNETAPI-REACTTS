@@ -9,6 +9,7 @@ const CategoryPage = () => {
     const [category, setCategory] = useState<ICategory>();
     const [subCategories, setSubCategories] = useState<ISubCategory[]>([]);
     const [products, setProducts] = useState<IProduct[]>([]);
+    const [productsCount, setProductsCount] = useState<number>(0);
     const [productColors, setProductColors] = useState<IProduct[]>([]);
     //paginated
     const [pageIndex, setPageIndex] = useState<number>(0);
@@ -31,6 +32,7 @@ const CategoryPage = () => {
     useEffect(() => {
         CategoryPageServices.getCategoryPage(urlName || '').then((res) => {
             if (res.isSuccess) {
+                setProductsCount(res.result.productsCount);
                 setCategory(res.result.category);
                 setSubCategories(res.result.subCategories);
                 setProducts(res.result.products);
@@ -83,6 +85,7 @@ const CategoryPage = () => {
         setSortFiltered(sort);
         await CategoryPageServices.postCategoryPageFilter(urlName, subCat, price, color, sort, pageIndex).then((res) => {
             if (res.isSuccess) {
+                setProductsCount(res.result.productsCount);
                 setCategory(res.result.category);
                 setSubCategories(res.result.subCategories);
                 setProducts(res.result.products);
@@ -100,6 +103,7 @@ const CategoryPage = () => {
     const handlePageIndex = async (page: number) => {
         await CategoryPageServices.postCategoryPageFilter(urlName || '', subCategoryFiltered, priceFiltered, colorFiltered, sortFiltered, page).then((res) => {
             if (res.isSuccess) {
+                setProductsCount(res.result.productsCount);
                 setCategory(res.result.category);
                 setSubCategories(res.result.subCategories);
                 setProducts(res.result.products);
@@ -117,7 +121,7 @@ const CategoryPage = () => {
     return (
         <section className="bg-white border-top pb-5">
             <div className="container my-4">
-                <h1 className="mb-4 fw-bold">{category?.name} <span className="fs-4 fw-normal">({products.length})</span></h1>
+                <h1 className="mb-4 fw-bold">{category?.name} <span className="fs-4 fw-normal">({productsCount})</span></h1>
                 <div className="mb-3">
                     <p className="d-inline-flex gap-1">
                         <button className="btn btn-outline-dark rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">

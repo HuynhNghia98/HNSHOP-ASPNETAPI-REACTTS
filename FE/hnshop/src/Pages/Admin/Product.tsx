@@ -216,7 +216,7 @@ const Product = () => {
         const res = await AdminProductServices.postAdminProductCreate(product?.name || '', product?.price || 0, product?.saleoff || 0, product?.description || '', product?.subCategoryId || 0, product?.colorId || 0, files || []);
         if (res.isSuccess) {
             handleCloseModal();
-            toast.success("Thêm mới thành công.", {
+            toast.success("Add New Successfully", {
                 autoClose: 2000,
                 theme: "colored",
             });
@@ -236,7 +236,7 @@ const Product = () => {
         console.log(res);
         if (res.isSuccess) {
             handleCloseModal();
-            toast.success("Cập nhật thành công.", {
+            toast.success("Updated Successfully", {
                 autoClose: 2000,
                 theme: "colored",
             });
@@ -258,7 +258,7 @@ const Product = () => {
         const res = await AdminProductServices.deleteAdminProductDelete(id);
         if (res.isSuccess) {
             handleCloseDeleteModal();
-            toast.success("Đã  thành công.", {
+            toast.success("Deleted Successfully", {
                 autoClose: 2000,
                 theme: "colored",
             });
@@ -305,9 +305,9 @@ const Product = () => {
                 style={{
                     content: {
                         width: '800px',
-                        height: '650px',
+                        height: '750px',
                         top: '20px',
-                        left: '450px',
+                        left: '30%',
                     },
                 }}
                 ariaHideApp={false}
@@ -316,9 +316,9 @@ const Product = () => {
                     <div className="row">
                         <div className="col">
                             {product.id !== 0 ? (
-                                <h1>Cập nhật</h1>
+                                <h1>Update</h1>
                             ) : (
-                                <h1>Thêm mới</h1>
+                                <h1>Add New</h1>
                             )}
 
                         </div>
@@ -488,7 +488,7 @@ const Product = () => {
             >
                 <div>
                     <div className="modal-header border-bottom pb-3">
-                        <h1 className="modal-title fs-5"></h1>
+                        <h1 className="modal-title fs-5">Delete</h1>
                         <button type="button" className="btn-close" onClick={handleCloseDeleteModal} aria-label="Close"></button>
                     </div>
                     <div className="modal-body py-4">

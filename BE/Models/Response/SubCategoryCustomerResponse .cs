@@ -12,7 +12,7 @@ namespace HNshop.Models.Response
 		{
 			Products = new();
 			ProductColors = new();
-			Products = new();
+			SubCategory = new();
 		}
 
 		public List<Product> Products { get; set; }
@@ -20,6 +20,7 @@ namespace HNshop.Models.Response
 		public SubCategory SubCategory { get; set; }
 		public int PageIndex { get; set; }
 		public int TotalPages { get; set; }
+		public int ProductsCount { get; set; }
 		public bool HasPreviousPage { get; set; }
 		public bool HasNextPage { get; set; }
 	}

@@ -24,7 +24,7 @@ const postOrder = (
     postalCode,
   };
   return api
-    .post<ResponseWrapper<object>>(api.url.order, data)
+    .post<ResponseWrapper<object>>(api.url.addOrder, data)
     .then((res) => {
       return res.data;
     })

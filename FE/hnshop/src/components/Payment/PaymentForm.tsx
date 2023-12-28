@@ -53,15 +53,15 @@ const PaymentForm = ({ stripePaymentIntentId, total, deliveryInput }: OrderProps
         if (result.error) {
             console.log(result.error.message);
         } else {
-            OrderServices.postOrder(userData.id, stripePaymentIntentId, result.paymentIntent.status || '', total, deliveryInput.name, deliveryInput.phoneNumber, deliveryInput.streetAddress, deliveryInput.city, deliveryInput.postalCode).then((res) => {
-                if (res.isSuccess) {
-                    dispatch(setCart({ emptyCartState }));
-                    navigate("/orderConfirmation", {
-                        state: { id: res.result },
-                    });
+            const res = await OrderServices.postOrder(userData.id, stripePaymentIntentId, result.paymentIntent.status || '', total, deliveryInput.name, deliveryInput.phoneNumber, deliveryInput.streetAddress, deliveryInput.city, deliveryInput.postalCode);
+            console.log(res)
+            if (res.isSuccess) {
+                dispatch(setCart({ emptyCartState }));
+                navigate("/orderConfirmation", {
+                    state: { id: res.result },
+                });
 
-                }
-            })
+            }
         }
     };
     return (

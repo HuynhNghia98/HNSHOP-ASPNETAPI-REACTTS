@@ -21,10 +21,10 @@ namespace HNshop.Controllers.Order
 		public OrderController(IUnitOfWork unitOfWork)
 		{
 			_unitOfWork = unitOfWork;
-			_res = new();
+			_res = new ApiResponse<object>();
 		}
 
-		[HttpPost]
+		[HttpPost("AddOrder")]
 		public async Task<IActionResult> AddOrder([FromForm] OrderRequestDTO orderRequest)
 		{
 			if (orderRequest.UserId == null)
@@ -60,25 +60,40 @@ namespace HNshop.Controllers.Order
 			_unitOfWork.Order.Add(order);
 			_unitOfWork.Save();
 
-			var carts = await _unitOfWork.ShoppingCart.Get(x => x.ApplicationUserId == orderRequest.UserId, true).Include(x => x.ProductDetail.Product).ToListAsync();
+			var carts = await _unitOfWork.ShoppingCart
+				.Get(x => x.ApplicationUserId == orderRequest.UserId, true)
+				.Include(x => x.ProductDetail.Product)
+				.ToListAsync();
 
 			foreach (var cart in carts)
 			{
+				//add item
 				Item item = new()
 				{
 					Quantity = cart.Quantity,
-					Price = cart.ProductDetail.Product.Price - (cart.ProductDetail.Product.Price * (cart.ProductDetail.Product.Saleoff/100)),
-					ProductDetailId=cart.ProductDetailId,
-					OrderId= order.Id
+					Price = cart.ProductDetail.Product.Price - (cart.ProductDetail.Product.Price * (cart.ProductDetail.Product.Saleoff / 100)),
+					ProductDetailId = cart.ProductDetailId,
+					OrderId = order.Id
 				};
 				_unitOfWork.Item.Add(item);
-				_unitOfWork.Save();
+				//minus productDetail
+				var productDetailsInOrder = _unitOfWork.ProductDetail.Get(x => x.Id == cart.ProductDetailId, true).FirstOrDefault();
+				if (productDetailsInOrder != null)
+				{
+					productDetailsInOrder.Quantity -= cart.Quantity;
+					_unitOfWork.ProductDetail.Update(productDetailsInOrder);
+				}
 			}
 
-			_unitOfWork.ShoppingCart.RemoveRange(carts);
+			var cartToRemove = await _unitOfWork.ShoppingCart
+				.Get(x => x.ApplicationUserId == orderRequest.UserId, true)
+				.ToListAsync();
+
+			_unitOfWork.ShoppingCart.RemoveRange(cartToRemove);
 			_unitOfWork.Save();
 
-			_res.StatusCode=HttpStatusCode.OK;
+
+			_res.StatusCode = HttpStatusCode.OK;
 			_res.Result = order.Id;
 			return Ok(_res);
 		}

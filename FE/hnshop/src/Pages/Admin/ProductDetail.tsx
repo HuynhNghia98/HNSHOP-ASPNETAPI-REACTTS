@@ -5,7 +5,6 @@ import { MUIDataTableColumnDef } from "mui-datatables";
 import { toast } from "react-toastify";
 import Modal from 'react-modal';
 import { IProduct } from '../../Services/Interfaces/Interfaces';
-import AdminProductServices from '../../Services/Admin/AdminProductServices';
 import AdminProductDetailServices from './../../Services/Admin/AdminProductDetailServices';
 
 const ProductDetail = () => {
@@ -163,7 +162,7 @@ const ProductDetail = () => {
         const res = await AdminProductDetailServices.postAdminProductDetailCreate(productDetail?.productId || 0, productDetail?.sizeId || 0, productDetail.quantity || 0);
         if (res.isSuccess) {
             handleCloseModal();
-            toast.success("Thêm mới thành công.", {
+            toast.success("Add New Successfully", {
                 autoClose: 2000,
                 theme: "colored",
             });
@@ -182,7 +181,7 @@ const ProductDetail = () => {
         console.log(res);
         if (res.isSuccess) {
             handleCloseModal();
-            toast.success("Cập nhật thành công.", {
+            toast.success("Updated Successfully", {
                 autoClose: 2000,
                 theme: "colored",
             });
@@ -203,7 +202,7 @@ const ProductDetail = () => {
         const res = await AdminProductDetailServices.deleteAdminProductDetailDelete(id);
         if (res.isSuccess) {
             handleCloseDeleteModal();
-            toast.success("Đã  thành công.", {
+            toast.success("Deleted Successfully", {
                 autoClose: 2000,
                 theme: "colored",
             });
@@ -250,9 +249,9 @@ const ProductDetail = () => {
                 style={{
                     content: {
                         width: '800px',
-                        height: '320px',
-                        top: '50px',
-                        left: '450px',
+                        height: '38%',
+                        top: '5%',
+                        left: '30%',
                     },
                 }}
                 ariaHideApp={false}
@@ -261,9 +260,9 @@ const ProductDetail = () => {
                     <div className="row">
                         <div className="col">
                             {productDetail.id !== 0 ? (
-                                <h1>Cập nhật</h1>
+                                <h1>Update</h1>
                             ) : (
-                                <h1>Thêm mới</h1>
+                                <h1>Add New</h1>
                             )}
 
                         </div>
@@ -342,15 +341,15 @@ const ProductDetail = () => {
                                 type="button"
                                 className="btn btn-outline-dark w-25 rounded-0"
                             >
-                                Đóng
+                                Close
                             </button>
                             {productDetail.id !== 0 ? (
                                 <button type="submit" className="btn btn-warning w-25 rounded-0 ms-2">
-                                    Lưu
+                                    Save
                                 </button>
                             ) : (
                                 <button type="submit" className="btn btn-success w-25 rounded-0 ms-2">
-                                    Thêm
+                                    Add
                                 </button>
                             )}
                         </div>
@@ -373,15 +372,15 @@ const ProductDetail = () => {
             >
                 <div>
                     <div className="modal-header border-bottom pb-3">
-                        <h1 className="modal-title fs-5"></h1>
+                        <h1 className="modal-title fs-5">Delete</h1>
                         <button type="button" className="btn-close" onClick={handleCloseDeleteModal} aria-label="Close"></button>
                     </div>
                     <div className="modal-body py-4">
-                        Bạn có chắc muốn  dòng này?
+                        Are you sure you want to delete this line?
                     </div>
                     <div className="modal-footer border-top pt-3">
-                        <button type="button" className="btn btn-outline-dark w-25 rounded-0" onClick={handleCloseDeleteModal}>Đóng</button>
-                        <button onClick={() => handleProductDetailDelete(id || 0)} type="button" className="btn btn-danger w-25 rounded-0 ms-1">Xoá</button>
+                        <button type="button" className="btn btn-outline-dark w-25 rounded-0" onClick={handleCloseDeleteModal}>Close</button>
+                        <button onClick={() => handleProductDetailDelete(id || 0)} type="button" className="btn btn-danger w-25 rounded-0 ms-1">Delete</button>
                     </div>
                 </div>
             </Modal>

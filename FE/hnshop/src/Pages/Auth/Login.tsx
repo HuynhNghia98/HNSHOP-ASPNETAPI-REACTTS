@@ -68,6 +68,7 @@ const Login = () => {
                             <div className="mb-3">
                                 <label className="fs-5">Password:</label>
                                 <input className="form-control fs-5"
+                                    type='password'
                                     name="password"
                                     value={userInput.password}
                                     onChange={(e) => handleUserInput(e)}

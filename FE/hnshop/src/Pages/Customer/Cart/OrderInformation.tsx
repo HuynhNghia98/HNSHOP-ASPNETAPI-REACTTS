@@ -45,7 +45,6 @@ const OrderInformation = () => {
     const handleMakePaymentSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         PaymentServices.postPayment(userData.id).then((res) => {
-            console.log(res)
             if (res.isSuccess) {
                 navigate("/cart/payment", {
                     state: { apiResult: res.result, deliveryInput },

@@ -112,7 +112,7 @@ const Color = () => {
         const res = await AdminColorServices.postAdminColorCreate(color?.name || '');
         if (res.isSuccess) {
             handleCloseModal();
-            toast.success("Thêm mới thành công.", {
+            toast.success("Add New Successfully", {
                 autoClose: 2000,
                 theme: "colored",
             });
@@ -128,7 +128,7 @@ const Color = () => {
         const res = await AdminColorServices.postAdminColorUpdate(color?.id || 0, color?.name || '');
         if (res.isSuccess) {
             handleCloseModal();
-            toast.success("Cập nhật thành công.", {
+            toast.success("Updated Successfully", {
                 autoClose: 2000,
                 theme: "colored",
             });
@@ -142,7 +142,7 @@ const Color = () => {
         const res = await AdminColorServices.deleteAdminColorDelete(id);
         if (res.isSuccess) {
             handleCloseDeleteModal();
-            toast.success("Đã  thành công.", {
+            toast.success("Deleted Successfully", {
                 autoClose: 2000,
                 theme: "colored",
             });
@@ -189,9 +189,9 @@ const Color = () => {
                 style={{
                     content: {
                         width: '800px',
-                        height: '250px',
+                        height: '240px',
                         top: '50px',
-                        left: '450px',
+                        left: '30%',
                     },
                 }}
                 ariaHideApp={false}
@@ -200,9 +200,9 @@ const Color = () => {
                     <div className="row">
                         <div className="col">
                             {color.id !== 0 ? (
-                                <h1>Cập nhật</h1>
+                                <h1>Update Color</h1>
                             ) : (
-                                <h1>Thêm mới</h1>
+                                <h1>Add New Color</h1>
                             )}
 
                         </div>
@@ -212,7 +212,7 @@ const Color = () => {
                     </div>
                     <form onSubmit={(e) => { color.id !== 0 ? handleSubmitUpdate(e) : handleSubmitCreate(e) }}>
                         <div>
-                            <label>Tên:</label>
+                            <label>Name:</label>
                             <input
                                 name="name"
                                 value={color?.name || ""}
@@ -230,15 +230,15 @@ const Color = () => {
                                 type="button"
                                 className="btn btn-outline-dark w-25 rounded-0"
                             >
-                                Đóng
+                                Close
                             </button>
                             {color.id !== 0 ? (
                                 <button type="submit" className="btn btn-warning w-25 rounded-0 ms-2">
-                                    Lưu
+                                    Save
                                 </button>
                             ) : (
                                 <button type="submit" className="btn btn-success w-25 rounded-0 ms-2">
-                                    Thêm
+                                    Add
                                 </button>
                             )}
                         </div>
@@ -260,15 +260,15 @@ const Color = () => {
             >
                 <div>
                     <div className="modal-header border-bottom pb-3">
-                        <h1 className="modal-title fs-5"></h1>
+                        <h1 className="modal-title fs-5">Delete</h1>
                         <button type="button" className="btn-close" onClick={handleCloseDeleteModal} aria-label="Close"></button>
                     </div>
                     <div className="modal-body py-4">
-                        Bạn có chắc muốn  dòng này?
+                        Are you sure you want to delete this line?
                     </div>
                     <div className="modal-footer border-top pt-3">
-                        <button type="button" className="btn btn-outline-dark w-25 rounded-0" onClick={handleCloseDeleteModal}>Đóng</button>
-                        <button onClick={() => handleColorDelete(id || 0)} type="button" className="btn btn-danger w-25 rounded-0 ms-1">Xoá</button>
+                        <button type="button" className="btn btn-outline-dark w-25 rounded-0" onClick={handleCloseDeleteModal}>Close</button>
+                        <button onClick={() => handleColorDelete(id || 0)} type="button" className="btn btn-danger w-25 rounded-0 ms-1">Delete</button>
                     </div>
                 </div>
             </Modal>

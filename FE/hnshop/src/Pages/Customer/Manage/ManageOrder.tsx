@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { IItem, IOrder } from "../../../Services/Interfaces/Interfaces";
+import { IOrder } from "../../../Services/Interfaces/Interfaces";
 import ManageServices from "../../../Services/Customer/Manage/ManageServices";
 import { SD_OrderStatus, SD_PaymentStatus } from "../../../Utility/SD";
 import userModel from "../../../Services/Interfaces/UserModel";
@@ -18,6 +18,7 @@ const ManageOrder = () => {
     const [orders, setOrders] = useState<IOrder[]>([]);
     const [status, setStatus] = useState<string>(SD_OrderStatus.WAITCONFIRM);
     const [isReviewModalOpen, setIsReviewModalOpen] = useState<boolean>(false);
+    const [cancel, setCancel] = useState<number>(0);
     const [ratingError, setRatingError] = useState<[]>([]);
     const [reviewInput, setReviewInput] = useState({
         rating: 0,
@@ -40,7 +41,7 @@ const ManageOrder = () => {
                 alert('cannot fetch')
             }
         })
-    }, [userData, status, isReviewModalOpen]);
+    }, [userData, status, isReviewModalOpen, cancel]);
 
     const handleChangeOrderStatus = (status: string) => {
         setStatus(status);
@@ -83,6 +84,7 @@ const ManageOrder = () => {
     const handleCancelOrder = async (orderId: number) => {
         const res = await ManageServices.postCancelOrder(orderId);
         if (res.isSuccess) {
+            setCancel(cancel + 1);
             toast.success(`Canceled order #${orderId}.`, {
                 autoClose: 2000,
                 theme: "colored",

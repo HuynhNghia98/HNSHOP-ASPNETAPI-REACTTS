@@ -68,7 +68,7 @@ const url = {
   //payment
   payment: "Payment",
   //order
-  order: "Order",
+  addOrder: "Order/AddOrder",
   //manage
   userInfor: "Manage/GetUserInfor",
   changeUserInfor: "Manage/ChangeUserInfor",

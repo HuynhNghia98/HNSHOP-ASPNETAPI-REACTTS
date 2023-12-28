@@ -8,7 +8,6 @@ const Payment = () => {
     const {
         state: { apiResult, deliveryInput },
     } = useLocation();
-    console.log(apiResult);
     const stripePromise = loadStripe(
         "pk_test_51OOcF3DW3175KAvXMbPZRQGwSzhrSvpLNXlTLfnRyFommbyMlFu7nsSpEHZDJqvoOzPrDoLkPlxiuyl0EkIfkW2R00MZMgFPzj"
     );

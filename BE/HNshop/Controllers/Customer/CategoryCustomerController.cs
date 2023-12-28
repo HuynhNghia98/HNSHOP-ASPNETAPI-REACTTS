@@ -48,6 +48,7 @@ namespace HNshop.Controllers.Customer
 
 			var paginatedProduct = await PaginatedList<Product>.CreateAsync(products, 1, PageSize);
 
+			_res.Result.ProductsCount = await _unitOfWork.Product.Get(x => x.SubCategory.Category.UrlName == urlName,true).CountAsync();
 			_res.Result.Products = paginatedProduct;
 			_res.Result.PageIndex = 1;
 			_res.Result.TotalPages = paginatedProduct.TotalPages;
@@ -129,6 +130,7 @@ namespace HNshop.Controllers.Customer
 					.Include(u => u.SubCategory);
 			var paginatedProduct = await PaginatedList<Product>.CreateAsync(filteredProducts, pageNumber ?? 1, PageSize);
 
+			_res.Result.ProductsCount = await _unitOfWork.Product.Get(x => x.SubCategory.Category.UrlName == urlName, true).CountAsync();
 			_res.Result.Products = paginatedProduct;
 			_res.Result.PageIndex = pageNumber ?? 1;
 			_res.Result.TotalPages = paginatedProduct.TotalPages;

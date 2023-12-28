@@ -5,7 +5,6 @@ import FormatCurrency from "../../../Utility/FormatCurrency";
 import userModel from "../../../Services/Interfaces/UserModel";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../../Storage/Redux/store";
-import { toast } from "react-toastify";
 import { Link } from "react-router-dom";
 import CartModel from "../../../Services/Interfaces/CartModel";
 import { setCart } from "../../../Storage/Redux/cartSlice";
