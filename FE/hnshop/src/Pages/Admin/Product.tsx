@@ -305,9 +305,9 @@ const Product = () => {
                 style={{
                     content: {
                         width: '800px',
-                        height: '750px',
+                        height: '650px',
                         top: '20px',
-                        left: '30%',
+                        left: '27%',
                     },
                 }}
                 ariaHideApp={false}
@@ -492,11 +492,11 @@ const Product = () => {
                         <button type="button" className="btn-close" onClick={handleCloseDeleteModal} aria-label="Close"></button>
                     </div>
                     <div className="modal-body py-4">
-                        Bạn có chắc muốn  dòng này?
+                        Are you sure you want to delete this line?
                     </div>
                     <div className="modal-footer border-top pt-3">
-                        <button type="button" className="btn btn-outline-dark w-25 rounded-0" onClick={handleCloseDeleteModal}>Đóng</button>
-                        <button onClick={() => handleProductDelete(id || 0)} type="button" className="btn btn-danger w-25 rounded-0 ms-1">Xoá</button>
+                        <button type="button" className="btn btn-outline-dark w-25 rounded-0" onClick={handleCloseDeleteModal}>Close</button>
+                        <button onClick={() => handleProductDelete(id || 0)} type="button" className="btn btn-danger w-25 rounded-0 ms-1">Delete</button>
                     </div>
                 </div>
             </Modal>

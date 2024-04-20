@@ -46,16 +46,16 @@ const User = () => {
         });
     }
 
-    const data = users.map((c) => [c.id, c.email, c.name, c.role, c.phoneNumber, c.lockoutEnd, c.createTime, users.indexOf(c)]);
+    const data = users.map((c) => [c.email, c.name, c.role, c.phoneNumber, c.lockoutEnd, c.createTime, users.indexOf(c)]);
 
     const columns: MUIDataTableColumnDef[] = [
-        {
-            name: "ID", options: {
-                customBodyRender: (value: number) => (
-                    <div style={{ textAlign: "start", paddingLeft: "10px" }}>{value}</div>
-                ),
-            },
-        },
+        // {
+        //     name: "ID", options: {
+        //         customBodyRender: (value: number) => (
+        //             <div style={{ textAlign: "start", paddingLeft: "10px" }}>{value}</div>
+        //         ),
+        //     },
+        // },
         {
             name: "Email", options: {
                 customBodyRender: (value: string) => (
@@ -87,14 +87,14 @@ const User = () => {
         {
             name: "LockOutEnd", options: {
                 customBodyRender: (value: Date) => (
-                    <div style={{ textAlign: "start", paddingLeft: "20px" }}>{FormatDate(value)}</div>
+                    <div style={{ textAlign: "start", paddingLeft: "10px" }}>{FormatDate(value)}</div>
                 ),
             },
         },
         {
             name: "CreateTime", options: {
                 customBodyRender: (value: Date) => (
-                    <div style={{ textAlign: "start", paddingLeft: "20px" }}>{FormatDate(value)}</div>
+                    <div style={{ textAlign: "start", paddingLeft: "10px" }}>{FormatDate(value)}</div>
                 ),
             },
         },

@@ -51,7 +51,7 @@ const ProductDetailPage = () => {
                 alert("cannot fetch.");
             }
         })
-    }, [])
+    }, [slug])
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const tempData = inputHelper(e, cartInput);

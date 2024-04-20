@@ -9,6 +9,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
+using HNshop.Data.DbInitializer;
+using HNshop.DataAccess.DbInitializer;
 
 namespace HNshop
 {
@@ -93,9 +95,9 @@ namespace HNshop
 				};
 			});
 
-			//builder.Services.AddCors();
 			builder.Services.AddCors();
 			builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+			builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 			var app = builder.Build();
 
 			// Configure the HTTP request pipeline.
@@ -115,7 +117,18 @@ namespace HNshop
 
 			app.MapControllers();
 
+			SeedData();
+
 			app.Run();
+
+			void SeedData()
+			{
+				using (var scope = app.Services.CreateScope())
+				{
+					var dbInititalizer = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
+					dbInititalizer.Initializer();
+				}
+			}
 		}
 	}
 }

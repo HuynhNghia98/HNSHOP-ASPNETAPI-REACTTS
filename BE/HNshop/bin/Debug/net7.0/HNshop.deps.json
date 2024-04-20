@@ -8,9 +8,6 @@
     ".NETCoreApp,Version=v7.0": {
       "HNshop/1.0.0": {
         "dependencies": {
-          "HNshop.DataAccess": "1.0.0",
-          "HNshop.Models": "1.0.0",
-          "HNshop.Utility": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.14",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.14",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
@@ -750,41 +747,6 @@
             "fileVersion": "6.0.21.52210"
           }
         }
-      },
-      "HNshop.DataAccess/1.0.0": {
-        "dependencies": {
-          "HNshop.Models": "1.0.0",
-          "HNshop.Utility": "1.0.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.14",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.14",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
-          "Microsoft.EntityFrameworkCore": "7.0.14",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14"
-        },
-        "runtime": {
-          "HNshop.DataAccess.dll": {}
-        }
-      },
-      "HNshop.Models/1.0.0": {
-        "dependencies": {
-          "HNshop.Utility": "1.0.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.14",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.14",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
-          "Microsoft.EntityFrameworkCore": "7.0.14",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14"
-        },
-        "runtime": {
-          "HNshop.Models.dll": {}
-        }
-      },
-      "HNshop.Utility/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.14"
-        },
-        "runtime": {
-          "HNshop.Utility.dll": {}
-        }
       }
     }
   },
@@ -1339,21 +1301,6 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
-    },
-    "HNshop.DataAccess/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "HNshop.Models/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "HNshop.Utility/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

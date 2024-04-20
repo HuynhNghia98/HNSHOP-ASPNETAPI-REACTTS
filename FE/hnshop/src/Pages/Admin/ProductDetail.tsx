@@ -249,9 +249,9 @@ const ProductDetail = () => {
                 style={{
                     content: {
                         width: '800px',
-                        height: '38%',
+                        height: '350px',
                         top: '5%',
-                        left: '30%',
+                        left: '27%',
                     },
                 }}
                 ariaHideApp={false}

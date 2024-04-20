@@ -25,10 +25,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\HNshop.DataAccess\HNshop.DataAccess.csproj" />
-    <ProjectReference Include="..\HNshop.Utility\HNshop.Utility.csproj" />
-    <ProjectReference Include="..\Models\HNshop.Models.csproj" />
-  </ItemGroup>
-
 </Project>

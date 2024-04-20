@@ -1344,56 +1344,6 @@
             "rid": "win"
           }
         }
-      },
-      "HNshop.DataAccess/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "HNshop.Models": "1.0.0",
-          "HNshop.Utility": "1.0.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.14",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.14",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
-          "Microsoft.EntityFrameworkCore": "7.0.14",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14"
-        },
-        "compile": {
-          "bin/placeholder/HNshop.DataAccess.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/HNshop.DataAccess.dll": {}
-        }
-      },
-      "HNshop.Models/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "HNshop.Utility": "1.0.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.14",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.14",
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.14",
-          "Microsoft.EntityFrameworkCore": "7.0.14",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.14"
-        },
-        "compile": {
-          "bin/placeholder/HNshop.Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/HNshop.Models.dll": {}
-        }
-      },
-      "HNshop.Utility/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.14"
-        },
-        "compile": {
-          "bin/placeholder/HNshop.Utility.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/HNshop.Utility.dll": {}
-        }
       }
     }
   },
@@ -3778,28 +3728,10 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "HNshop.DataAccess/1.0.0": {
-      "type": "project",
-      "path": "../HNshop.DataAccess/HNshop.DataAccess.csproj",
-      "msbuildProject": "../HNshop.DataAccess/HNshop.DataAccess.csproj"
-    },
-    "HNshop.Models/1.0.0": {
-      "type": "project",
-      "path": "../Models/HNshop.Models.csproj",
-      "msbuildProject": "../Models/HNshop.Models.csproj"
-    },
-    "HNshop.Utility/1.0.0": {
-      "type": "project",
-      "path": "../HNshop.Utility/HNshop.Utility.csproj",
-      "msbuildProject": "../HNshop.Utility/HNshop.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "HNshop.DataAccess >= 1.0.0",
-      "HNshop.Models >= 1.0.0",
-      "HNshop.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.14",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.14",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 7.0.14",
@@ -3838,17 +3770,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.DataAccess\\HNshop.DataAccess.csproj": {
-              "projectPath": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.DataAccess\\HNshop.DataAccess.csproj"
-            },
-            "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj": {
-              "projectPath": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\HNshop.Utility\\HNshop.Utility.csproj"
-            },
-            "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\Models\\HNshop.Models.csproj": {
-              "projectPath": "D:\\My-Projects\\HNSHOP-ASPNETAPI-REACTTS\\BE\\Models\\HNshop.Models.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
